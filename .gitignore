@@ -19,3 +19,7 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw*
+
+# 不锁版本号
+yarn.lock
+package-lock.json
