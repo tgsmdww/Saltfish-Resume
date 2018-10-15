@@ -1,11 +1,24 @@
 <template lang="pug">
 #app
+  the-head-nav
   #nav
     router-link(to="/") Home
     |  |#{' '}
     router-link(to="/about") About
   router-view
 </template>
+
+<script lang="ts">
+import { Component, Vue } from "vue-property-decorator";
+import TheHeadNav from "@/components/TheHeadNav.vue";
+
+@Component({
+  components: {
+    TheHeadNav,
+  }
+})
+export default class App extends Vue {}
+</script>
 
 <style lang="stylus">
 #app
