@@ -1,3 +1,109 @@
 <template lang="pug">
+.profile-page
+  h1.head Profile
+  gc-line
+  p.content(
+    v-html = "content"
+  )
+  .theme
+    h2.title - Research Interests -
+    profile-wrap(
+      v-for="(item, i) in interests"
+      :key="i"
+      :title="item.title"
+      :content2="item.content"
+    )
+
+  .theme
+    h2.title - Publication (Including Under Review) -
+    profile-wrap(
+      v-for="(item, i) in publications"
+      :key="i"
+      :title="item.title"
+      :content1="item.authors"
+      :content2="item.source"
+    )
+
+  .theme
+    h2.title - Travels -
+    profile-wrap(
+      v-for="(item, i) in travels"
+      :key="i"
+      :title="item.time"
+      :content2="item.content"
+    )
+
+  .theme
+    h2.title - Experiences -
+    experience-wrap(
+      v-for="(item, i) in experiences"
+      :key="i"
+      :pic="item.src"
+      :time="item.time"
+      :name="item.title"
+      :content="item.content"
+    )
+
+  .theme
+    h2.title  - About me -
+    ul.list
+      li.item(
+        v-for="(item,i) in aboutme"
+        :key="i"
+      ) {{item.content}}
 
 </template>
+
+<script lang="ts">
+import { Component, Vue } from "vue-property-decorator";
+import ExperienceWrap from "./ExperienceWrap.vue";
+import ProfileWrap from "./ProfileWrap.vue";
+
+import introduction from "@/data/mainintro";
+import {
+  researchInterests,
+  publications,
+  travels,
+  experiences,
+  aboutme,
+} from "@/data/profile";
+
+
+@Component({
+  components: {
+    ExperienceWrap,
+    ProfileWrap,
+  }
+})
+export default class Profile extends Vue {
+  content: string = introduction.content;
+  interests: object[] = researchInterests;
+  publications: object[] = publications;
+  travels: object[] = travels;
+  experiences: object[] = experiences;
+  aboutme: object[] = aboutme;
+}
+</script>
+
+<style lang="stylus" scoped>
+.profile-page
+  text-align left
+  color #c5e5ff
+
+  >.head
+    margin-bottom 20px
+    @media screen and (max-width : 420px)
+      text-align center
+
+  >.content
+    margin-left 1em
+    line-height 2
+    color white
+
+  >.theme
+    margin-bottom 100px
+    >.list >.item
+      margin-bottom 10px
+      line-height 2
+      color white
+</style>
