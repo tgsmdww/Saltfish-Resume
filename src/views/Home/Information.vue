@@ -1,5 +1,5 @@
 <template lang="pug">
-.introduction
+.information
   h1.name {{head}}
   h3.research {{research}}
   p.content(
@@ -45,38 +45,38 @@ export default class MainIntro extends Vue {
 </script>
 
 <style lang="stylus" scoped>
-.introduction
+.information
   margin 0
   max-width 400px
   height auto
   text-align right
 
-  .head
+  >.name
     margin-top 0
     margin-bottom 10px
     color #c5e5ff
 
-  .research
+  >.research
     margin-top 10px
     margin-bottom 15px
     color white
 
 
-  .content
-    margin 0 10px
-    text-indent 2em
-    line-height 1.5
-    color #8594af
+  >.content
     margin-bottom 10px
+    margin 0 10px
+    line-height 1.5
+    text-indent 2em
+    color #8594af
 
-  .end
-    color #c5e5ff
+  >.cv
     font-size 20px
     font-weight bold
     text-decoration none
+    color #c5e5ff
     cursor pointer
 
-  .contact
+  >.contact
     margin-top 20px
 
     .email
@@ -100,7 +100,7 @@ export default class MainIntro extends Vue {
   @media screen and (max-width : 900px)
     text-align center
 
-    >.head
+    >.name
     >.research
       margin 10px auto
       margin-top 0
@@ -109,7 +109,7 @@ export default class MainIntro extends Vue {
     >.content
       text-indent 0
 
-    >.end
+    >.cv
       display inline-block
       margin 0 auto
       text-align center

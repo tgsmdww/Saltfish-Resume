@@ -65,14 +65,13 @@ import {
   publications,
   travels,
   experiences,
-  aboutme,
+  aboutme
 } from "@/data/profile";
-
 
 @Component({
   components: {
     ExperienceWrap,
-    ProfileWrap,
+    ProfileWrap
   }
 })
 export default class Profile extends Vue {
@@ -93,6 +92,7 @@ export default class Profile extends Vue {
   >.head
     margin-bottom 20px
     @media screen and (max-width : 420px)
+      margin-top 50px
       text-align center
 
   >.content

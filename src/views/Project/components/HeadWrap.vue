@@ -1,5 +1,5 @@
 <template lang="pug">
-.wrap
+.header-wrap
   h2.title(
     v-html = "title"
   )
@@ -11,9 +11,8 @@
 
 <script lang="ts">
 import { Component, Prop, Vue } from "vue-property-decorator";
-
 @Component
-export default class Wrap extends Vue {
+export default class Header extends Vue {
   @Prop(String)
   title!: string;
   @Prop(String)
@@ -22,23 +21,29 @@ export default class Wrap extends Vue {
 </script>
 
 <style lang="stylus" scoped>
-.wrap
-  margin 2em 0
-
+.header-wrap
+  margin 0 10%
+  margin-top 20px
+  letter-spacing 0.1em
   >.title
     margin 0 0 1em 0
     letter-spacing 0.1em
+    font-size 3em
+    font-weight 600
 
   >.content
-    margin 1em 0 0 0
-    line-height 2em
-    font-size 1.2em
-
+    margin 1em 0 2em 0
+    font-size 1.5em
+    font-weight 300
+    line-height 2
+    text-transform capitalize
   @media screen and (max-width : 645px)
     >.title
-      font-size 1.1em
-
+      font-size 1.45em
     >.content
       font-size 1em
 
+  @media screen and (max-width : 420px)
+    >.head
+      font-size 1.2em
 </style>

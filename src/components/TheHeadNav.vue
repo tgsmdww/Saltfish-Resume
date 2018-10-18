@@ -130,6 +130,7 @@ $text-color-hover= #ffffff
     font-weight bold
     letter-spacing 1px
     color $text-color
+    cursor pointer
     transition box-shadow 0.6s
     &:hover
       color $text-color-hover

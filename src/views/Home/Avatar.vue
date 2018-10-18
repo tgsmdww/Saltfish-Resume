@@ -11,7 +11,7 @@ export default class AvatarImg extends Vue {}
 
 <style lang="stylus" scoped>
 .avatar
-  .pic
+  >.pic
     box-sizing border-box
     height 320px
     box-shadow -7px 7px 15px rgba(0,0,0,0.8)

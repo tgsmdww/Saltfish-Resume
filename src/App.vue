@@ -15,14 +15,13 @@ import SvgIcon from "@/components/SvgIcon.vue";
 @Component({
   components: {
     TheHeadNav,
-    SvgIcon,
+    SvgIcon
   }
 })
 export default class App extends Vue {}
 </script>
 
 <style lang="stylus">
-
 @font-face
   font-family ProximaNova
   src url('../public/fonts/ProximaNova-Regular.otf') format('opentype')
@@ -59,7 +58,7 @@ html
     .maincontainer
       padding-bottom 1px
 
-    .maincontainer .router
+    .maincontainer >.router
       margin 20px 10%
       @media screen and (max-width :420px)
         margin 0 5%

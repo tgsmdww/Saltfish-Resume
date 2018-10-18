@@ -1,28 +1,39 @@
 <template lang="pug">
 .home-page
   .introduction
-    introduction
+    information
     .line
     avatar
+  .container
+    Portfolio
+    Profile
+    Contact.home-contact
 </template>
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
-import Introduction from "./Introduction.vue";
+import Information from "./Information.vue";
 import Avatar from "./Avatar.vue";
+import Profile from "@/views/Profile/index.vue";
+import Portfolio from "@/views/Portfolio/index.vue";
+import Contact from "@/views/Contact/index.vue";
 
 @Component({
   components: {
-    Introduction,
+    Information,
     Avatar,
+    Portfolio,
+    Profile,
+    Contact
   }
 })
 export default class Home extends Vue {}
 </script>
 
 <style lang="stylus" scoped>
-.home
-  .info
+.home-page
+  margin 0 !important
+  >.introduction
     display flex
     flex-wrap nowrap
     justify-content center
@@ -37,13 +48,17 @@ export default class Home extends Vue {}
       height auto
       padding 0
 
-    .line
+    >.line
       margin 0 65px 0 60px
-      height 100%
       width 1px
-      background-color white
+      height 100%
+      background-color rgba(255,255,255,.5)
 
       @media screen and (max-width : 900px)
         display none
+
+  >.container
+    margin 0 10%
+
 
 </style>

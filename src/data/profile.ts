@@ -11,18 +11,19 @@ export const researchInterests = [
   }
 ];
 
-
 export const publications = [
   {
     title:
       "Relation Extraction for Chinese Medicine Using ResCNN and Attention",
-    authors: "Tianxiang Gao, Xi Yang, <strong>Zhuohao Zhang</strong>, Linlin Li, Zhou Zhao",
+    authors:
+      "Tianxiang Gao, Xi Yang, <strong>Zhuohao Zhang</strong>, Linlin Li, Zhou Zhao",
     source: "AAAI 2019 Student Abstract Submitted"
   },
   {
     title:
       "Designing interactive 3D printed models with Teachers of the Visually Impaired",
-    authors: "Lei Shi, Holly M. Lawson, <strong>Zhuohao Zhang</strong>, Shiri Azenkot",
+    authors:
+      "Lei Shi, Holly M. Lawson, <strong>Zhuohao Zhang</strong>, Shiri Azenkot",
     source: "CHI 2019 Submitted"
   },
   {
@@ -110,8 +111,7 @@ export const experiences = [
 
 export const aboutme = [
   {
-    content:
-      "Thai & Japanese food lover, always willing to try new cuisine"
+    content: "Thai & Japanese food lover, always willing to try new cuisine"
   },
   {
     content:

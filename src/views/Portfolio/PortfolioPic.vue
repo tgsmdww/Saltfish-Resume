@@ -45,15 +45,21 @@ $height = 400px * 0.75
   margin 1em
   width $width
   height $height
+  @media screen and (max-width : 1146px)
+    width 0.75*$width
+    height 0.75*$height
+
   @media screen and (max-width : 885px)
     margin .5em
+    width 0.6*$width
+    height 0.6*$height
 
-  .pic
+  >.pic
     width 100%*(400/560)
     height 100%
     cursor pointer
     box-shadow 0 2px 5px 0 rgba(0,0,0,0.5), 0 19px 38px 0 rgba(0,0,0,0.4)
-  .info
+  >.info
     position relative
     margin-top 100%*(200/560)
     margin-left -100%*(80/560)
@@ -68,15 +74,21 @@ $height = 400px * 0.75
     &:hover
       box-shadow 0 2px 16px 0 rgba(0, 0, 0, 0.7), 0 26px 38px 0 rgba(0, 0, 0, 0.9)
 
-    .title
+    >.title
       margin 0
       padding-top 15px
       padding-left 10px
       font-weight bold
       font-size (1.3/1.6)*$title-font-size
       font-variant small-caps
+      @media screen and (max-width : 1146px)
+        padding-top 12px
+        padding-left 10px
+      @media screen and (max-width : 885px)
+        padding-top 7px
+        padding-left 6px
 
-    .content
+    >.content
       display flex
       align-items flex-start
       justify-content center
@@ -90,12 +102,18 @@ $height = 400px * 0.75
       font-style italic
       font-size 0.55*$title-font-size
       font-variant small-caps
+      @media screen and (max-width : 1146px)
+        padding-left 10px
+        font-size 0.43*$title-font-size
+      @media screen and (max-width : 885px)
+        padding-left 6px
+        font-size 0.36*$title-font-size
 
-      .content1
-      .content2
+    >.content >.content1
+    >.content >.content2
         margin 0
 
-    .learnmore
+    >.learnmore
       position absolute
       bottom 15%
       margin 0
@@ -103,34 +121,14 @@ $height = 400px * 0.75
       font-weight bold
       font-size 0.44*$title-font-size
       font-variant small-caps
-
-    @media screen and (max-width : 1146px)
-      >.title
-        padding-top 12px
-        padding-left 10px
-      >.content
-        padding-left 10px
-        font-size 0.43*$title-font-size
-      >.learnmore
+      @media screen and (max-width : 1146px)
         padding-left 10px
         font-size 0.45*$title-font-size
-    @media screen and (max-width : 885px)
-      >.title
-        padding-top 7px
-        padding-left 6px
-      >.content
-        padding-left 6px
-        font-size 0.36*$title-font-size
-      >.learnmore
+
+      @media screen and (max-width : 885px)
         padding-left 6px
         font-size 0.37*$title-font-size
 
-  @media screen and (max-width : 1146px)
-    width 0.75*$width
-    height 0.75*$height
 
-  @media screen and (max-width : 885px)
-    width 0.6*$width
-    height 0.6*$height
 
 </style>

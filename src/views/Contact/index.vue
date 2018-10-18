@@ -96,4 +96,25 @@ export default class Contact extends Vue {
   >.link .linkedin
     width 32px
     height 32px
+
+.home-contact
+  >.title
+    text-align right
+    margin-right 0
+    @media screen and (max-width : 420px)
+      margin 0 auto
+      margin-bottom 20px
+      height auto
+      text-align center
+
+
+  >.content
+    margin-right 0
+    margin-left auto
+    text-align right
+    @media screen and (max-width : 420px)
+      margin 0 auto
+      width 100%
+      min-width 0
+      text-align left
 </style>

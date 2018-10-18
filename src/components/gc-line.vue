@@ -3,9 +3,8 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
-export default class line extends Vue {
-}
+import Vue from "vue";
+export default class line extends Vue {}
 </script>
 
 
