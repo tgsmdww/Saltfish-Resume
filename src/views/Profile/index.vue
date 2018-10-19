@@ -51,7 +51,7 @@
         v-for="(item,i) in aboutme"
         :key="i"
       ) {{item.content}}
-
+  gc-copyright.copyright
 </template>
 
 <script lang="ts">
@@ -109,5 +109,8 @@ export default class Profile extends Vue {
 
 .home-profile
   >.content
+    display none
+
+  >.copyright
     display none
 </style>

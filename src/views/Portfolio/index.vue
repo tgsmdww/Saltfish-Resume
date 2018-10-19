@@ -17,6 +17,7 @@
       :picsrc1="item.picsrc1"
       :picsrc2="item.picsrc2"
     )
+  gc-copyright.copyright
 </template>
 
 <script lang="ts">
@@ -77,91 +78,7 @@ export default class Portfolio extends Vue {
     margin-right 50px
     width 100%
 
-    >.item2
-      & >>> .title
-        font-size 0.9em
-    >.item5
-      & >>> .title
-        font-size 1.1em
-
-    >.item6
-      & >>> .title
-        font-size 1.3em
-
-    >.item7
-      & >>> .title
-        font-size 1.05em
-
-    >.item8
-      & >>> .title
-        font-size 1.2em
-
-
-    @media screen and (max-width : 1146px)
-      >.item1
-        & >>> .title
-          font-size 1em
-      >.item2
-        & >>> .title
-          font-size .68em
-
-      >.item3
-        & >>> .title
-          font-size 1em
-
-      >.item4
-        & >>> .title
-          font-size 1em
-
-      >.item5
-        & >>> .title
-          font-size .9em
-
-      >.item6
-        & >>> .title
-          font-size .9em
-
-      >.item7
-        & >>> .title
-          font-size .8em
-
-      >.item8
-        & >>> .title
-          font-size 0.9em
-
-    @media screen and (max-width : 885px)
-      left 0
-      >.item1
-        & >>> .title
-          font-size .8em
-      >.item2
-        & >>> .title
-          font-size .53em
-
-      >.item3
-        & >>> .title
-          font-size .8em
-        & >>> .content
-          font-size .57em !important
-
-      >.item4
-        & >>> .title
-          font-size .8em
-
-      >.item5
-        & >>> .title
-          font-size .72em
-
-      >.item6
-        & >>> .title
-          font-size .75em
-
-      >.item7
-        & >>> .title
-          font-size .64em
-
-
-      >.item8
-        & >>> .title
-          font-size .72em
+.home-portfolio
+  >.copyright
+    display none
 </style>

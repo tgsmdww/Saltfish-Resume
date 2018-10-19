@@ -25,6 +25,7 @@
         aria-hidden="true"
       )
         use(xlink:href="#icon-linkedin")
+  gc-copyright.copyright
 </template>
 
 
@@ -114,4 +115,7 @@ export default class Contact extends Vue {
       width 100%
       min-width 0
       text-align left
+
+  >.copyright
+    display none
 </style>

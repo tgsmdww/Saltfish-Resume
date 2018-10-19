@@ -1,5 +1,5 @@
 <template lang="pug">
-p.copyright Copyright © by Zhuohao Zhang, 2018
+p.copyright Copyright © by Zhuohao Zhang. All Rights Reserved.
 </template>
 
 <script lang="ts">
