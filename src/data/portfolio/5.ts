@@ -1,21 +1,47 @@
 export const information = {
   heading: "Selected Course Projects",
   introduction: "Selected projects from computer science courses in ZJU",
-  title1: "YT-Store",
+  title1: "AR Collaborative Vis",
   content1:
-    "A C2C E-Commercial platform that based on UGC(User Generated Content) to help young people like college students to browse, buy and share products from overseas.",
+    "We explore the possibility of an AR-based Collaborative platform that allows users to select business locations. Say that your group needs to select a location to run business, we need to collaboratively make a decision based on the massive data which presented in the platform. The problem can be: How to display information such as traffic, weather, unexpected disasters clearly in a VR-3D world. How to automatically calculate several candidates meeting users' demands. We present the prototype, trying to offer a solution to urban-context based decision making problem, in which we describe how multiple users can walk through the workflow of the decision-making process by collaboration in an immersive environment. ",
   title2: "Hello-Word",
   content2:
     "A new vocabulary website for multiple users with different identities of teachers and students. Teachers can set tests and review plans, while students can recite vocabulary, set up study plans, review and take tests, and many other things related to vocabulary learning.",
-  title3: "AR Collaborative Vis",
+  title3: "YT-Store",
   content3:
-    "We explore the possibility of an AR-based Collaborative platform that allows users to select business locations. Say that your group needs to select a location to run business, we need to collaboratively make a decision based on the massive data which presented in the platform. The problem can be: How to display information such as traffic, weather, unexpected disasters clearly in a VR-3D world. How to automatically calculate several candidates meeting users' demands. We present the prototype, trying to offer a solution to urban-context based decision making problem, in which we describe how multiple users can walk through the workflow of the decision-making process by collaboration in an immersive environment. ",
+    "A C2C E-Commercial platform that based on UGC(User Generated Content) to help young people like college students to browse, buy and share products from overseas.",
   title4: "CPU from scratch",
   content4:
     "CPU and Operating System Design from scratch on hardware. I was responsible for CPU design and hardware system design and optimization with fellow students through 5 courses of 20 credits. The design include Single-Cycle, Multi-Cycle, and Pipeline CPU, I also helped design a System-on-Chips. Additionally, I contributed to an operation system and some basic applications built from scratch on hardware."
 };
 
 export const atlas1 = [
+  {
+    name: "picture3_1",
+    picsrc: require("@/assets/Portfolio/courseprojects/ARCollabVis/1.png")
+  },
+  {
+    name: "picture3_2",
+    picsrc: require("@/assets/Portfolio/courseprojects/ARCollabVis/2.png")
+  },
+  {
+    name: "picture3_3",
+    picsrc: require("@/assets/Portfolio/courseprojects/ARCollabVis/3.png")
+  }
+];
+
+export const atlas2 = [
+  {
+    name: "picture2_1",
+    picsrc: require("@/assets/Portfolio/courseprojects/Hello-word/1.png")
+  },
+  {
+    name: "Picture2_2",
+    picsrc: require("@/assets/Portfolio/courseprojects/Hello-word/2.png")
+  }
+];
+
+export const atlas3 = [
   {
     name: "picture1_1",
     picsrc: require("@/assets/Portfolio/courseprojects/YoungTopStore/Slide1.png")
@@ -79,32 +105,6 @@ export const atlas1 = [
   {
     name: "picture1_16",
     picsrc: require("@/assets/Portfolio/courseprojects/YoungTopStore/Slide19.png")
-  }
-];
-
-export const atlas2 = [
-  {
-    name: "picture2_1",
-    picsrc: require("@/assets/Portfolio/courseprojects/Hello-word/1.png")
-  },
-  {
-    name: "Picture2_2",
-    picsrc: require("@/assets/Portfolio/courseprojects/Hello-word/2.png")
-  }
-];
-
-export const atlas3 = [
-  {
-    name: "picture3_1",
-    picsrc: require("@/assets/Portfolio/courseprojects/ARCollabVis/1.png")
-  },
-  {
-    name: "picture3_2",
-    picsrc: require("@/assets/Portfolio/courseprojects/ARCollabVis/2.png")
-  },
-  {
-    name: "picture3_3",
-    picsrc: require("@/assets/Portfolio/courseprojects/ARCollabVis/3.png")
   }
 ];
 

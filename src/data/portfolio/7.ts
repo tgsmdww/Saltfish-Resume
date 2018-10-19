@@ -46,6 +46,6 @@ export const QA = [
   {
     question: "What's your conclusion of this project?",
     answer:
-      "We proposed a novel neural network model with ResCNN and attention mechanism for relation extraction task on Chi- nese medical datasets. To train and evaluate the model, we constructed the first large-scale Chinese medicine text data set in the world. Our model achieved state-of-the-art perfor- mance in our data set. We hope that our Chinese medical data set can not only be used for our model, but also ben- efit other related researches. The successful deployment of our model in Alibaba demonstrated that our model, as well as the data set we constructed, are practical and valuable for industrial level application."
+      "We proposed a novel neural network model with ResCNN and attention mechanism for relation extraction task on Chinese medical datasets. To train and evaluate the model, we constructed the first large-scale Chinese medicine text data set in the world. Our model achieved state-of-the-art performance in our data set. We hope that our Chinese medical data set can not only be used for our model, but also benefit other related researches. The successful deployment of our model in Alibaba demonstrated that our model, as well as the data set we constructed, are practical and valuable for industrial level application."
   }
 ];

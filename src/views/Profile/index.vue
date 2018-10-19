@@ -99,6 +99,7 @@ export default class Profile extends Vue {
     margin-left 1em
     line-height 2
     color white
+    margin-bottom 70px
 
   >.theme
     margin-bottom 70px

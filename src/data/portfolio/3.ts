@@ -1,7 +1,7 @@
 export const information = {
   heading: "Menupedia",
   introduction:
-    "Ubiquitous Computing, Finished in 36 hours as a hackathon competition project with 3 students.",
+    "UbiComp & Intelligent UI, Finished in 36 hours as a hackathon competition project with 3 students.",
   title1: "Introduction",
   content1:
     "Menupedia is a restaurant exploration assistant consisting of an <strong>AR restaurant map </strong>and a <strong>smart menu </strong>that gives foreign visiters navigation and guidance to restaurants.",
