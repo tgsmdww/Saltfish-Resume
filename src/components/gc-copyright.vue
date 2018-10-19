@@ -1,5 +1,5 @@
 <template lang="pug">
-p.copyright Copyright © by 2018 Zhuohao Zhang. All Rights Reserved.
+p.copyright Copyright © by Zhuohao Zhang, 2018
 </template>
 
 <script lang="ts">
@@ -13,5 +13,4 @@ export default class Imglink extends Vue {}
   margin-top 5em
   margin-bottom 2em
   text-align center
-  color #c5e5ff
 </style>

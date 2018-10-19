@@ -40,6 +40,7 @@
         :atlas="atlas4"
       )
 
+  gc-copyright
 </template>
 
 <script lang="ts">

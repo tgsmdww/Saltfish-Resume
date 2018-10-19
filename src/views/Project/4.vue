@@ -35,6 +35,7 @@
         :atlas="atlas3"
       )
 
+  gc-copyright
 </template>
 
 <script lang="ts">

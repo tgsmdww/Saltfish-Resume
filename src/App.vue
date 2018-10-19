@@ -5,7 +5,6 @@
   .maincontainer
     router-view.router
     router-view.portfolio-router(name="portfolio")
-  gc-copyright
 </template>
 
 <script lang="ts">

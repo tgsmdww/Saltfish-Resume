@@ -27,6 +27,7 @@
         :atlas="atlas2"
       )
 
+  gc-copyright
 </template>
 
 <script lang="ts">
