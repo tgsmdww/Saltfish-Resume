@@ -64,12 +64,13 @@ export default class MainIntro extends Vue {
 
   >.content
     margin-bottom 10px
-    margin 0 10px
+    margin 0 10px 10px 10px
     line-height 1.5
     text-indent 2em
     color #8594af
 
   >.cv
+
     font-size 20px
     font-weight bold
     text-decoration none

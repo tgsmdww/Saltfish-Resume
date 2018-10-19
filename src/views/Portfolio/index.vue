@@ -14,10 +14,8 @@
       v-show="item.type==selected || selected=='All'"
       :class="[item.type,item.name]"
       :router="item.router"
-      :path="item.path"
-      :title="item.title"
-      :content1="item.content1"
-      :content2="item.content2"
+      :picsrc1="item.picsrc1"
+      :picsrc2="item.picsrc2"
     )
 </template>
 

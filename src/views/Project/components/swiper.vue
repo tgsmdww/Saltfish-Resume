@@ -58,6 +58,7 @@ export default class Swiper extends Vue {
   .swiper-button-next
   .swiper-button-prev
     height 20px
+    opacity 0.5
 
   .pic
     max-width 100%

@@ -101,9 +101,13 @@ export default class Profile extends Vue {
     color white
 
   >.theme
-    margin-bottom 100px
+    margin-bottom 70px
     >.list >.item
       margin-bottom 10px
       line-height 2
       color white
+
+.home-profile
+  >.content
+    display none
 </style>

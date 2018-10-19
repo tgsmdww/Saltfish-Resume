@@ -15,12 +15,12 @@
     h4.title Address
     p.content {{address}}
   .link
-    a.href(href="https://www.github.com/saltfishzzh" target="_blank")
+    a(href="https://www.github.com/saltfishzzh" target="_blank")
       svg.icon.github(
         aria-hidden="true"
       )
         use(xlink:href="#icon-github")
-    a.href(href="https://www.linkedin.com/in/zhuohao-zhang-08656510a/" target="_blank")
+    a(href="https://www.linkedin.com/in/zhuohao-zhang-08656510a/" target="_blank")
       svg.icon.linkedin(
         aria-hidden="true"
       )
@@ -84,18 +84,16 @@ export default class Contact extends Vue {
       margin 10px auto
       text-align center
 
-  >.link >.href
-    &:visited
-      color #c5e5ff
-
   >.link .github
     margin-right 10px
     width 32px
     height 32px
+    color #c5e5ff
 
   >.link .linkedin
     width 32px
     height 32px
+    color #c5e5ff
 
 .home-contact
   >.title
@@ -106,7 +104,6 @@ export default class Contact extends Vue {
       margin-bottom 20px
       height auto
       text-align center
-
 
   >.content
     margin-right 0

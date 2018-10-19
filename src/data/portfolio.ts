@@ -3,72 +3,56 @@ export default [
     router: "/portfolio/assets18",
     name: "item1",
     type: "Research",
-    path: require("@/assets/portfoliopic/1.png"),
-    title: "Talkit++",
-    content1: "Accessibility",
-    content2: "ASSETS'18 Demo"
+    picsrc1: require("@/assets/portfoliopic/1.png"),
+    picsrc2: require("@/assets/portfoliopic/1_2.png")
   },
   {
     router: "/portfolio/chi19",
     name: "item2",
     type: "Research",
-    path: require("@/assets/portfoliopic/2.png"),
-    title: "Interactive 3D Models",
-    content1: "Accessibility",
-    content2: "CHI'19 Submitted"
+    picsrc1: require("@/assets/portfoliopic/2.png"),
+    picsrc2: require("@/assets/portfoliopic/2_2.png")
   },
   {
     router: "/portfolio/menupedia",
     name: "item3",
     type: "Projects",
-    path: require("@/assets/portfoliopic/3.png"),
-    title: "Menupedia",
-    content1: "Ubiquitious Computing",
-    content2: "HackTech 2018"
+    picsrc1: require("@/assets/portfoliopic/3.png"),
+    picsrc2: require("@/assets/portfoliopic/3_2.png")
   },
   {
     router: "/portfolio/aiprojects",
     name: "item4",
     type: "Projects",
-    path: require("@/assets/portfoliopic/4.png"),
-    title: "TryAI",
-    content1: "Artificial Intelligence",
-    content2: ""
+    picsrc1: require("@/assets/portfoliopic/4.png"),
+    picsrc2: require("@/assets/portfoliopic/4_2.png")
   },
   {
     router: "/portfolio/courseprojects",
     name: "item5",
     type: "Projects",
-    path: require("@/assets/portfoliopic/5.png"),
-    title: "Course Projects",
-    content1: "Computer Science",
-    content2: ""
+    picsrc1: require("@/assets/portfoliopic/5.png"),
+    picsrc2: require("@/assets/portfoliopic/5_2.png")
   },
   {
     router: "/portfolio/graphicsdesign",
     name: "item6",
     type: "Others",
-    path: require("@/assets/portfoliopic/6.png"),
-    title: "Graphic Design",
-    content1: "Posters and Handwriting",
-    content2: ""
+    picsrc1: require("@/assets/portfoliopic/6.png"),
+    picsrc2: require("@/assets/portfoliopic/6_2.png")
   },
   {
     router: "/portfolio/aaai19",
     name: "item7",
     type: "Research",
-    path: require("@/assets/portfoliopic/7.png"),
-    title: "ResCNN&Attention",
-    content1: "Relation Extraction",
-    content2: "AAAI'19 Submitted"
+    picsrc1: require("@/assets/portfoliopic/7.png"),
+    picsrc2: require("@/assets/portfoliopic/7_2.png")
   },
   {
     router: "/portfolio/wallcontroller",
     name: "item8",
     type: "Research",
-    path: require("@/assets/portfoliopic/8.png"),
-    title: "WallController",
-    content1: "Intelligent Interactive System",
-    content2: ""
+    picsrc1: require("@/assets/portfoliopic/8.png"),
+    picsrc2: require("@/assets/portfoliopic/8_2.png")
   }
 ];

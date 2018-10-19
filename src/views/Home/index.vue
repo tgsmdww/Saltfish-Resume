@@ -5,8 +5,8 @@
     .line
     avatar
   .container
-    Portfolio
-    Profile
+    Portfolio.home-portfolio
+    Profile.home-profile
     Contact.home-contact
 </template>
 
@@ -59,6 +59,13 @@ export default class Home extends Vue {}
 
   >.container
     margin 0 10%
+
+    >.home-portfolio
+      margin-top 75px
+    >.home-profile
+    >.home-contact
+      margin-top 100px
+
 
 
 </style>
