@@ -36,7 +36,6 @@ export default class Header extends Vue {
     font-size 1.5em
     font-weight 300
     line-height 2
-    text-transform capitalize
   @media screen and (max-width : 645px)
     >.title
       font-size 1.45em

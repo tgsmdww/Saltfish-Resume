@@ -12,6 +12,7 @@
     )
     h2.nov Working in Progress...Launching on NOV.
     gc-copyright
+
 </template>
 
 <script lang="ts">
@@ -78,7 +79,5 @@ export default class wallcontroller extends Vue {
       margin 0 auto
       margin-top 5em
       text-align center
-
-
 
 </style>

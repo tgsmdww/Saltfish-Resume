@@ -10,7 +10,13 @@ export default class Imglink extends Vue {}
 
 <style lang="stylus" scoped>
 .copyright
+  margin 0 auto
   margin-top 5em
   margin-bottom 2em
+  width 70%
   text-align center
+  line-height 1.5em
+  letter-spacing 0.1em
+  @media screen and (max-width :420px)
+    font-size 0.9em
 </style>

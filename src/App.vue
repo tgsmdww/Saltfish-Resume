@@ -1,5 +1,6 @@
 <template lang="pug">
 #app
+  go-top
   svg-icon
   the-head-nav
   .maincontainer
@@ -11,11 +12,13 @@
 import { Component, Vue } from "vue-property-decorator";
 import TheHeadNav from "@/components/TheHeadNav.vue";
 import SvgIcon from "@/components/SvgIcon.vue";
+import GoTop from "@/components/GoTop.vue";
 
 @Component({
   components: {
     TheHeadNav,
-    SvgIcon
+    SvgIcon,
+    GoTop
   }
 })
 export default class App extends Vue {}
