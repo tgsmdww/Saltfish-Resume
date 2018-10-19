@@ -11,7 +11,6 @@
       :content="information.content1"
     )
     h2.nov Working in Progress...Launching on NOV.
-    gc-copyright
 </template>
 
 <script lang="ts">

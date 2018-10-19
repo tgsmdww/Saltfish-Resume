@@ -49,7 +49,6 @@
     :question="QA.question"
     :answer="QA.answer"
   )
-  gc-copyright
 </template>
 
 <script lang="ts">

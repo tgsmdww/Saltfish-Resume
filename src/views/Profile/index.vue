@@ -51,7 +51,6 @@
         v-for="(item,i) in aboutme"
         :key="i"
       ) {{item.content}}
-
 </template>
 
 <script lang="ts">

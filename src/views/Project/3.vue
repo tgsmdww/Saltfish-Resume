@@ -90,7 +90,6 @@
     :content="information.content6"
   )
 
-  gc-copyright
 </template>
 
 <script lang="ts">
