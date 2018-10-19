@@ -23,7 +23,7 @@
     )
     .atlas
       pic-wrap.pic(
-        v-for="(pic,i) in imgsrc"
+        v-for="(pic,i) in atlas"
         :key="i"
         :picsrc="pic.picsrc"
         :alt="pic.name"
@@ -50,7 +50,7 @@ import DownloadButton from "./components/DownloadButton.vue";
 import PicWrap from "./components/PicWrap.vue";
 import AskQuestion from "./components/AskQuestion.vue";
 
-import { information, imgsrc, QA } from "@/data/portfolio/1";
+import { information, atlas, QA } from "@/data/portfolio/1";
 
 @Component({
   components: {
@@ -64,7 +64,7 @@ import { information, imgsrc, QA } from "@/data/portfolio/1";
 })
 export default class portfolio1 extends Vue {
   information: object = information;
-  imgsrc: object[] = imgsrc;
+  atlas: object[] = atlas;
   QAs: object[] = QA;
 }
 </script>

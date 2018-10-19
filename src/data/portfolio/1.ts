@@ -13,7 +13,7 @@ export const information = {
   pdfcontent: "DOWNLOAD PAPER"
 };
 
-export const imgsrc = [
+export const atlas = [
   {
     name: "pic1",
     content:

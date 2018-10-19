@@ -134,11 +134,11 @@ export default class portfolio1 extends Vue {
     bottom 0
     left 0
     z-index -1
-    background-image linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../assets/Portfolio/chi19/background.jpg")
+    background-image linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../assets/Portfolio/menupedia/background.png")
     background-repeat no-repeat
     background-size 100%
-    @media screen and (max-width : 1185px)
-      width 1185px
+    @media screen and (max-width : 760px)
+      width 760px
 
   >.wrapper
     margin-top 10%

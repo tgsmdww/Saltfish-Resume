@@ -72,7 +72,7 @@ export default class Portfolio extends Vue {
   >.itemlist
     display flex
     flex-wrap wrap
-    justify-content space-around
+    justify-content center
     position relative
     left 1%
     margin-top 2em

@@ -7,7 +7,11 @@ import Portfolio from "./views/Portfolio/index.vue";
 import assets18 from "./views/Project/1.vue";
 import chi19 from "./views/Project/2.vue";
 import menupedia from "./views/Project/3.vue";
-
+import aiprojects from "./views/Project/4.vue";
+import courseprojects from "./views/Project/5.vue";
+import graphicsdesign from "./views/Project/6.vue";
+import aaai19 from "./views/Project/7.vue";
+import wallcontroller from "./views/Project/8.vue";
 Vue.use(Router);
 export default new Router({
   mode: "history",
@@ -60,6 +64,41 @@ export default new Router({
       name: "menupedia",
       components: {
         portfolio: menupedia
+      }
+    },
+    {
+      path: "/portfolio/aiprojects",
+      name: "aiprojects",
+      components: {
+        portfolio: aiprojects
+      }
+    },
+    {
+      path: "/portfolio/courseprojects",
+      name: "courseprojects",
+      components: {
+        portfolio: courseprojects
+      }
+    },
+    {
+      path: "/portfolio/graphicsdesign",
+      name: "graphicsdesign",
+      components: {
+        portfolio: graphicsdesign
+      }
+    },
+    {
+      path: "/portfolio/aaai19",
+      name: "aaai19",
+      components: {
+        portfolio: aaai19
+      }
+    },
+    {
+      path: "/portfolio/wallcontroller",
+      name: "wallcontroller",
+      components: {
+        portfolio: wallcontroller
       }
     }
   ]

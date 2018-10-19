@@ -60,14 +60,13 @@ export default class Experience extends Vue {
       margin-top 5px
       margin-left 1em
       @media screen and (max-width :745px)
-        display block //daiding
+        display block
 
     >.title >.name
       display inline-block
       margin 0
       @media screen and (max-width :745px)
         display block
-        height auto //daiding
 
     >.title >.time
       display inline-block

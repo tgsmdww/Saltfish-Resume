@@ -42,7 +42,7 @@ $height = 400px * 0.75
   display flex
   flex-wrap nowrap
   position relative
-  margin 1em
+  margin 2em
   width $width
   height $height
   @media screen and (max-width : 1146px)
