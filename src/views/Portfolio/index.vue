@@ -12,7 +12,7 @@
       v-for="(item, i) in items"
       :key="i"
       v-show="item.type==selected || selected=='All'"
-      :class="[item.type, item.name, selected === 'All' ? 'global-fade-in' : '']"
+      :class="[item.type, item.name, selected == 'All' ? 'global-fade-in' : '']"
       :router="item.router"
       :picsrc1="item.picsrc1"
       :picsrc2="item.picsrc2"
@@ -25,11 +25,16 @@ import { Component, Vue } from "vue-property-decorator";
 import PortfolioPic from "./PortfolioPic.vue";
 import Portfolios from "@/data/portfolio";
 import fliterbar from "@/components/FliterBar.vue";
+import mixin from "@/mixin";
 
 @Component({
   components: {
     PortfolioPic,
     fliterbar
+  },
+    mixins: [mixin],
+    mounted() {
+    (this as any).inView();
   }
 })
 export default class Portfolio extends Vue {
@@ -57,6 +62,7 @@ export default class Portfolio extends Vue {
   transition all 1s
 
 .portfolio-page
+  color #c5e5ff
   >.title
     margin-bottom 20px
     color #c5e5ff
