@@ -8,6 +8,7 @@ Vue.component("gc-line", gcLine);
 Vue.component("gc-copyright", gcCopyright);
 
 Vue.config.productionTip = false;
+
 new Vue({
   router,
   render: h => h(App)

@@ -8,11 +8,11 @@
     :typeChangeHandle="typeChangeHandle"
   )
   .itemlist
-    portfolio-pic(
+    portfolio-pic.global-fade-in(
       v-for="(item, i) in items"
       :key="i"
       v-show="item.type==selected || selected === 'All'"
-      :class="[item.type, item.name, selected === 'All' ? 'global-fade-in' : '']"
+      :class="[item.type, item.name]"
       :router="item.router"
       :picsrc1="item.picsrc1"
       :picsrc2="item.picsrc2"
@@ -21,27 +21,27 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue } from "vue-property-decorator";
+import { Component, Vue, Mixins } from "vue-property-decorator";
 import PortfolioPic from "./PortfolioPic.vue";
 import Portfolios from "@/data/portfolio";
 import fliterbar from "@/components/FliterBar.vue";
-import mixin from "@/mixin";
+import MyMixin from "@/mixin";
 
 @Component({
   components: {
     PortfolioPic,
     fliterbar
-  },
-  mixins: [mixin],
-  mounted() {
-    (this as any).inView();
   }
 })
-export default class Portfolio extends Vue {
+export default class Portfolio extends Mixins(MyMixin) {
   items: object[] = Portfolios;
   selected: string = "All";
 
-  typeChangeHandle(type: string): any {
+  mounted() {
+    this.inView();
+  }
+
+  typeChangeHandle(type: string) {
     this.selected = type;
   }
 }

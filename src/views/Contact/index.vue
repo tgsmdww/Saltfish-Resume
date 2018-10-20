@@ -30,21 +30,20 @@
 
 
 <script lang="ts">
-import { Component, Vue } from "vue-property-decorator";
+import { Component, Vue, Mixins } from "vue-property-decorator";
 import contact from "@/data/contact";
-import mixin from "@/mixin";
+import MyMixin from "@/mixin";
 
-@Component({
-  mixins: [mixin],
-  mounted() {
-    (this as any).inView();
-  }
-})
-export default class Contact extends Vue {
+@Component
+export default class Contact extends Mixins(MyMixin) {
   content: string = contact.content;
   email: string = contact.email;
   phone: string = contact.phone;
   address: string = contact.address;
+
+  mounted() {
+    this.inView();
+  }
 }
 </script>
 

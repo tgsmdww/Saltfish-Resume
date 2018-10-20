@@ -42,15 +42,15 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue } from "vue-property-decorator";
+import { Component, Vue, Mixins } from "vue-property-decorator";
 import wrap from "./components/wrap.vue";
 import HeadWrap from "./components/HeadWrap.vue";
 import BorderWrap from "./components/BorderWrap.vue";
 import DownloadButton from "./components/DownloadButton.vue";
 import PicWrap from "./components/PicWrap.vue";
 import AskQuestion from "./components/AskQuestion.vue";
-import mixin from "@/mixin";
 import { information, atlas, QA } from "@/data/portfolio/1";
+import MyMixin from "@/mixin";
 
 @Component({
   components: {
@@ -60,16 +60,16 @@ import { information, atlas, QA } from "@/data/portfolio/1";
     DownloadButton,
     PicWrap,
     AskQuestion
-  },
-  mixins: [mixin],
-  mounted() {
-    (this as any).inView();
   }
 })
-export default class portfolio1 extends Vue {
+export default class portfolio1 extends Mixins(MyMixin) {
   information: object = information;
   atlas: object[] = atlas;
   QAs: object[] = QA;
+
+  mounted() {
+    this.inView();
+  }
 }
 </script>
 
