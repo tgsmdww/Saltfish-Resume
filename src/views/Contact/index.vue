@@ -96,6 +96,7 @@ export default class Contact extends Vue {
     height 32px
     color #c5e5ff
 
+//as homepage component
 .home-contact
   >.title
     text-align right

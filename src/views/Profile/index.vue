@@ -108,6 +108,7 @@ export default class Profile extends Vue {
       line-height 2
       color white
 
+//as homepage component
 .home-profile
   >.content
     display none

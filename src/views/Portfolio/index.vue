@@ -57,9 +57,9 @@ export default class Portfolio extends Vue {
   transition all 1s
 
 .portfolio-page
+  color #c5e5ff
   >.title
     margin-bottom 20px
-    color #c5e5ff
     text-align left
 
     @media screen and (max-width : 420px)
@@ -78,6 +78,7 @@ export default class Portfolio extends Vue {
     margin-right 50px
     width 100%
 
+//as homepage component
 .home-portfolio
   >.copyright
     display none
