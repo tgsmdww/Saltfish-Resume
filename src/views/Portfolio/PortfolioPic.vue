@@ -1,9 +1,9 @@
 <template lang="pug">
-.portfolio-pic(:class="type")
-  router-link.pic-wrap(:to="router")
-    img.pic(:src="picsrc1")
-  router-link.info(:to="router")
-    img.describe(:src="picsrc2")
+  .portfolio-pic(:class="type")
+    router-link.pic-wrap(:to="router")
+      img.pic(:src="picsrc1")
+    router-link.info(:to="router")
+      img.describe(:src="picsrc2")
 </template>
 
 <script lang="ts">

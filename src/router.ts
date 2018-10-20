@@ -12,7 +12,9 @@ import courseprojects from "./views/Project/5.vue";
 import graphicsdesign from "./views/Project/6.vue";
 import aaai19 from "./views/Project/7.vue";
 import wallcontroller from "./views/Project/8.vue";
+
 Vue.use(Router);
+
 export default new Router({
   mode: "history",
   base: process.env.BASE_URL,

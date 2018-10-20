@@ -6,7 +6,7 @@
     avatar
   .container
     Portfolio.home-portfolio
-    Profile.home-profile
+    Profile.home-profile.global-fade-in
     Contact.home-contact
   gc-copyright
 </template>
@@ -18,6 +18,7 @@ import Avatar from "./Avatar.vue";
 import Profile from "@/views/Profile/index.vue";
 import Portfolio from "@/views/Portfolio/index.vue";
 import Contact from "@/views/Contact/index.vue";
+import mixin from "@/mixin";
 
 @Component({
   components: {
@@ -26,6 +27,10 @@ import Contact from "@/views/Contact/index.vue";
     Portfolio,
     Profile,
     Contact
+  },
+  mixins: [mixin],
+  mounted() {
+    (this as any).inView();
   }
 })
 export default class Home extends Vue {}

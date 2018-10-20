@@ -11,17 +11,17 @@
   )  {{cv}}
   .contact
     a(href="mailto:zhuohaozhang@zju.edu.cn" target="_blank")
-      svg.icon.email(
+      svg.icon.email.global-fade-in(
         aria-hidden="true"
       )
         use(xlink:href="#icon-email")
     a(href="https://www.github.com/saltfishzzh" target="_blank")
-      svg.icon.github(
+      svg.icon.github.global-fade-in(
         aria-hidden="true"
       )
         use(xlink:href="#icon-github")
     a(href="https://www.linkedin.com/in/zhuohao-zhang-08656510a/" target="_blank")
-      svg.icon.linkedin(
+      svg.icon.linkedin.global-fade-in(
         aria-hidden="true"
       )
         use(xlink:href="#icon-linkedin")

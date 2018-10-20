@@ -12,7 +12,7 @@
       v-for="(item, i) in items"
       :key="i"
       v-show="item.type==selected || selected=='All'"
-      :class="[item.type,item.name]"
+      :class="[item.type, item.name, selected === 'ALL' ? 'global-fade-in' : '']"
       :router="item.router"
       :picsrc1="item.picsrc1"
       :picsrc2="item.picsrc2"
