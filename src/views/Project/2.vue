@@ -53,7 +53,7 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue } from "vue-property-decorator";
+import { Component, Vue, Mixins } from "vue-property-decorator";
 import wrap from "./components/wrap.vue";
 import HeadWrap from "./components/HeadWrap.vue";
 import BorderWrap from "./components/BorderWrap.vue";
@@ -62,7 +62,7 @@ import PicWrap from "./components/PicWrap.vue";
 import AskQuestion from "./components/AskQuestion.vue";
 import Chi19Video from "./components/Chi19Video.vue";
 import { information, leftatlas, rightatlas, QA } from "@/data/portfolio/2";
-import mixin from "@/mixin";
+import MyMixin from "@/mixin";
 
 @Component({
   components: {
@@ -73,17 +73,17 @@ import mixin from "@/mixin";
     PicWrap,
     AskQuestion,
     Chi19Video
-  },
-  mixins: [mixin],
-  mounted() {
-    (this as any).inView();
   }
 })
-export default class portfolio1 extends Vue {
+export default class portfolio1 extends Mixins(MyMixin) {
   information: object = information;
   leftatlas: object[] = leftatlas;
   rightatlas: object[] = rightatlas;
   QAs: object[] = QA;
+
+  mounted() {
+    this.inView();
+  }
 }
 </script>
 

@@ -9,19 +9,19 @@
     href="/pdf/ZhuohaoZhang-CV.pdf"
     target="_blank"
   )  {{cv}}
-  .contact
+  .contact.global-fade-in
     a(href="mailto:zhuohaozhang@zju.edu.cn" target="_blank")
-      svg.icon.email.global-fade-in(
+      svg.icon.email(
         aria-hidden="true"
       )
         use(xlink:href="#icon-email")
     a(href="https://www.github.com/saltfishzzh" target="_blank")
-      svg.icon.github.global-fade-in(
+      svg.icon.github(
         aria-hidden="true"
       )
         use(xlink:href="#icon-github")
     a(href="https://www.linkedin.com/in/zhuohao-zhang-08656510a/" target="_blank")
-      svg.icon.linkedin.global-fade-in(
+      svg.icon.linkedin(
         aria-hidden="true"
       )
         use(xlink:href="#icon-linkedin")

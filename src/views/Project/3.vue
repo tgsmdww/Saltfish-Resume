@@ -94,7 +94,7 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue } from "vue-property-decorator";
+import { Component, Vue, Mixins } from "vue-property-decorator";
 import wrap from "./components/wrap.vue";
 import HeadWrap from "./components/HeadWrap.vue";
 import MenupediaVideo from "./components/MenupediaVideo.vue";
@@ -103,7 +103,7 @@ import QuoteWrap from "./components/QuoteWrap.vue";
 import Tag1 from "./components/Tag1.vue";
 import Tag2 from "./components/Tag2.vue";
 import { information, quotes, type1, type2 } from "@/data/portfolio/3";
-import mixin from "@/mixin";
+import MyMixin from "@/mixin";
 
 @Component({
   components: {
@@ -114,17 +114,17 @@ import mixin from "@/mixin";
     QuoteWrap,
     Tag1,
     Tag2
-  },
-  mixins: [mixin],
-  mounted() {
-    (this as any).inView();
   }
 })
-export default class portfolio1 extends Vue {
+export default class portfolio1 extends Mixins(MyMixin) {
   information: object = information;
   quotes: object[] = quotes;
   type1: object[] = type1;
   type2: object[] = type2;
+
+  mounted() {
+    this.inView();
+  }
 }
 </script>
 

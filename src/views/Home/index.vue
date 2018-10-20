@@ -12,13 +12,13 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue } from "vue-property-decorator";
+import { Component, Vue, Mixins } from "vue-property-decorator";
 import Information from "./Information.vue";
 import Avatar from "./Avatar.vue";
 import Profile from "@/views/Profile/index.vue";
 import Portfolio from "@/views/Portfolio/index.vue";
 import Contact from "@/views/Contact/index.vue";
-import mixin from "@/mixin";
+import MyMixin from "@/mixin";
 
 @Component({
   components: {
@@ -27,13 +27,13 @@ import mixin from "@/mixin";
     Portfolio,
     Profile,
     Contact
-  },
-  mixins: [mixin],
-  mounted() {
-    (this as any).inView();
   }
 })
-export default class Home extends Vue {}
+export default class Home extends Mixins(MyMixin) {
+  mounted() {
+    this.inView();
+  }
+}
 </script>
 
 <style lang="stylus" scoped>
