@@ -38,6 +38,7 @@ export default class Home extends Vue {}
 
 <style lang="stylus" scoped>
 .home-page
+  margin 0 !important
   color #c5e5ff
   >.introduction
     display flex

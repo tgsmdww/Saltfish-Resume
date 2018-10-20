@@ -7,7 +7,7 @@
     :types='["All","Research","Projects","Others"]'
     :typeChangeHandle="typeChangeHandle"
   )
-  transition-group(name="list" tag="div" class="itemlist")
+  .itemlist
     portfolio-pic(
       v-for="(item, i) in items"
       :key="i"
@@ -49,18 +49,6 @@ export default class Portfolio extends Vue {
 
 
 <style lang="stylus" scoped>
-
-.list-enter,
-.list-leave-to
-  opacity 0
-  transform translateY(30px)
-
-.list-leave-active
-  position absolute
-
-.portfolio-page .portfolio-pic
-  transition all 1s
-
 .portfolio-page
   color #c5e5ff
   >.title

@@ -76,7 +76,7 @@ html
       padding-bottom 1px
     .maincontainer >.router
       margin 20px 10%
-      max-width 1400px
+
       @media screen and (max-width :420px)
         margin 0 5%
 
