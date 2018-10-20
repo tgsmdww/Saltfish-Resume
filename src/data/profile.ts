@@ -2,7 +2,7 @@ export const researchInterests = [
   {
     title: "I  Human-Computer Interaction & Accessibility",
     content:
-      "Working with Prof. Shiri Azenkot and her PhD candidate Lei Shi inspired my interests in HCI, especially for accessibility. We did research on projects of for people with visual impairment. The bigger picture is to enable general people to access and analyze information equally. <Strong>To be specific, I wish to expand my research on intelligent user interfaces (mostly mobile) to enhance accessibility and remove obstacles in multimodal interactions.</Strong>"
+      "Working with Prof. Shiri Azenkot and her PhD candidate Lei Shi inspired my interests in HCI, especially for accessibility. We did research on projects of for people with visual impairment. The bigger picture is to enable general people to access and analyze information equally. <Strong>To be specific, I wish to expand my research on intelligent user interfaces (mostly mobile) and fabrications (like 3D printed models) to enhance accessibility and remove obstacles in multimodal interactions.</Strong>"
   },
   {
     title: "II  Immersive Analytics & Visualization & Ubiquitous Computing",
@@ -38,15 +38,19 @@ export const travels = [
   {
     time: "2018.10.11-2018.10.12",
     content:
-      "Baltimore, Maryland. Talk on Tactile Graphics in Education and Careers Symposium, with Ph.D. Candidate Lei Shi"
+      "Talk on Tactile Graphics in Education and Careers Symposium, with Ph.D. Candidate Lei Shi, Baltimore, Maryland"
   },
   {
     time: "2018.09.27-2018.12.09",
-    content: "New York City, New York"
+    content: "Gonna spend 3 months at Cornell Tech, New York City, New York"
   },
   {
     time: "2018.07.11-2018.09.24",
-    content: "Davis, California"
+    content: "Gonna spend summer at UC Davis, Davis, California"
+  },
+  {
+    time: "2018.03.01-2018.03.04",
+    content: "HackTech at Caltech, Pasadena, California"
   }
 ];
 
