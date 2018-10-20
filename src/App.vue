@@ -13,7 +13,6 @@ import { Component, Vue } from "vue-property-decorator";
 import TheHeadNav from "@/components/TheHeadNav.vue";
 import SvgIcon from "@/components/SvgIcon.vue";
 import GoTop from "@/components/GoTop.vue";
-import { setTimeout } from "timers";
 
 @Component({
   components: {

@@ -24,7 +24,7 @@
     )
     .atlas
       .left
-        pic-wrap.pic(
+        pic-wrap.pic.global-fade-in(
           v-for="(pic,i) in leftatlas"
           :key="i"
           :picsrc="pic.picsrc"
@@ -32,7 +32,7 @@
           :content="pic.content"
         )
       .right
-        pic-wrap.pic(
+        pic-wrap.pic.global-fade-in(
           v-for="(pic,i) in rightatlas"
           :key="i"
           :picsrc="pic.picsrc"
@@ -62,6 +62,7 @@ import PicWrap from "./components/PicWrap.vue";
 import AskQuestion from "./components/AskQuestion.vue";
 import Chi19Video from "./components/Chi19Video.vue";
 import { information, leftatlas, rightatlas, QA } from "@/data/portfolio/2";
+import mixin from "@/mixin";
 
 @Component({
   components: {
@@ -72,6 +73,10 @@ import { information, leftatlas, rightatlas, QA } from "@/data/portfolio/2";
     PicWrap,
     AskQuestion,
     Chi19Video
+  },
+  mixins: [mixin],
+  mounted() {
+    (this as any).inView();
   }
 })
 export default class portfolio1 extends Vue {

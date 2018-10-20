@@ -29,7 +29,7 @@
     )
 
     .quotes
-      quote-wrap(
+      quote-wrap.global-fade-in(
         v-for="(somebody,i) in quotes"
         :key="i"
         :picsrc="somebody.avatar"
@@ -46,7 +46,7 @@
       p.titledown(
         v-html="information.title4_2"
       )
-    .icons
+    .icons.global-fade-in
       svg.icon.ar(aria-hidden="true")
         use(xlink:href="#icon-ar")
       .others
@@ -103,6 +103,7 @@ import QuoteWrap from "./components/QuoteWrap.vue";
 import Tag1 from "./components/Tag1.vue";
 import Tag2 from "./components/Tag2.vue";
 import { information, quotes, type1, type2 } from "@/data/portfolio/3";
+import mixin from "@/mixin";
 
 @Component({
   components: {
@@ -113,6 +114,10 @@ import { information, quotes, type1, type2 } from "@/data/portfolio/3";
     QuoteWrap,
     Tag1,
     Tag2
+  },
+  mixins: [mixin],
+  mounted() {
+    (this as any).inView();
   }
 })
 export default class portfolio1 extends Vue {

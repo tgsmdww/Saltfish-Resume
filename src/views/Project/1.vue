@@ -22,7 +22,7 @@
       :title="information.title3"
     )
     .atlas
-      pic-wrap.pic(
+      pic-wrap.pic.global-fade-in(
         v-for="(pic,i) in atlas"
         :key="i"
         :picsrc="pic.picsrc"
@@ -49,7 +49,7 @@ import BorderWrap from "./components/BorderWrap.vue";
 import DownloadButton from "./components/DownloadButton.vue";
 import PicWrap from "./components/PicWrap.vue";
 import AskQuestion from "./components/AskQuestion.vue";
-
+import mixin from "@/mixin";
 import { information, atlas, QA } from "@/data/portfolio/1";
 
 @Component({
@@ -60,6 +60,10 @@ import { information, atlas, QA } from "@/data/portfolio/1";
     DownloadButton,
     PicWrap,
     AskQuestion
+  },
+  mixins: [mixin],
+  mounted() {
+    (this as any).inView();
   }
 })
 export default class portfolio1 extends Vue {

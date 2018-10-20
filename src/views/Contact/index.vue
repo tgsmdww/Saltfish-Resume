@@ -14,7 +14,7 @@
   .way
     h4.title Address
     p.content {{address}}
-  .link
+  .link.global-fade-in
     a(href="https://www.github.com/saltfishzzh" target="_blank")
       svg.icon.github(
         aria-hidden="true"
@@ -32,8 +32,14 @@
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
 import contact from "@/data/contact";
+import mixin from "@/mixin";
 
-@Component({})
+@Component({
+  mixins: [mixin],
+  mounted() {
+    (this as any).inView();
+  }
+})
 export default class Contact extends Vue {
   content: string = contact.content;
   email: string = contact.email;
