@@ -11,8 +11,8 @@
     portfolio-pic(
       v-for="(item, i) in items"
       :key="i"
-      v-show="item.type==selected || selected=='All'"
-      :class="[item.type, item.name, selected == 'All' ? 'global-fade-in' : '']"
+      v-show="item.type==selected || selected === 'All'"
+      :class="[item.type, item.name, selected === 'All' ? 'global-fade-in' : '']"
       :router="item.router"
       :picsrc1="item.picsrc1"
       :picsrc2="item.picsrc2"
@@ -32,8 +32,8 @@ import mixin from "@/mixin";
     PortfolioPic,
     fliterbar
   },
-    mixins: [mixin],
-    mounted() {
+  mixins: [mixin],
+  mounted() {
     (this as any).inView();
   }
 })
@@ -65,7 +65,6 @@ export default class Portfolio extends Vue {
   color #c5e5ff
   >.title
     margin-bottom 20px
-    color #c5e5ff
     text-align left
 
     @media screen and (max-width : 420px)
@@ -84,6 +83,7 @@ export default class Portfolio extends Vue {
     margin-right 50px
     width 100%
 
+//as homepage component
 .home-portfolio
   >.copyright
     display none
