@@ -45,7 +45,7 @@ export default class Home extends Vue {}
     flex-wrap nowrap
     justify-content center
     align-items center
-    height 420px
+    height 380px
     margin 0 auto
     padding-bottom 50px
     text-align center
