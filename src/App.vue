@@ -13,6 +13,7 @@ import { Component, Vue } from "vue-property-decorator";
 import TheHeadNav from "@/components/TheHeadNav.vue";
 import SvgIcon from "@/components/SvgIcon.vue";
 import GoTop from "@/components/GoTop.vue";
+import { setTimeout } from "timers";
 
 @Component({
   components: {
@@ -25,6 +26,20 @@ export default class App extends Vue {}
 </script>
 
 <style lang="stylus">
+
+@keyframes globalFadeIn
+  from
+    transform translateY(20%)
+    opacity 0
+
+  to
+    transform translateY(0)
+    opacity 1
+
+.global-fade-in
+  visibility hidden
+
+
 @font-face
   font-family ProximaNova
   src url('../public/fonts/ProximaNova-Regular.otf') format('opentype')
