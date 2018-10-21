@@ -50,17 +50,32 @@ export default class MainIntro extends Vue {
   max-width 400px
   height auto
   text-align right
+  @media screen and (max-width : 900px)
+    text-align center
+  @media screen and (max-width : 645px)
+    margin-top 40px
+    margin-left 6%
+    margin-right 6%
 
   >.name
     margin-top 0
     margin-bottom 10px
     color #c5e5ff
+    @media screen and (max-width : 900px)
+      margin 10px auto
+      margin-top 0
+      text-align center
 
   >.research
     margin-top 10px
     margin-bottom 15px
     color white
-
+    @media screen and (max-width : 900px)
+      margin 10px auto
+      margin-top 0
+      text-align center
+    @media screen and (max-width : 645px)
+      margin-top 25px
 
   >.content
     margin-bottom 10px
@@ -68,17 +83,28 @@ export default class MainIntro extends Vue {
     line-height 1.5
     text-indent 2em
     color #8594af
+    @media screen and (max-width : 900px)
+      text-indent 0
+    @media screen and (max-width : 645px)
+      margin-top 25px
+
 
   >.cv
-
     font-size 20px
     font-weight bold
     text-decoration none
     color #c5e5ff
     cursor pointer
+    @media screen and (max-width : 900px)
+      display inline-block
+      margin 0 auto
+      text-align center
 
   >.contact
     margin-top 20px
+    @media screen and (max-width : 900px)
+      margin 10px auto
+      text-align center
 
     .email
       width 32px
@@ -97,26 +123,5 @@ export default class MainIntro extends Vue {
       height 32px
       color #c5e5ff
 
-
-  @media screen and (max-width : 900px)
-    text-align center
-
-    >.name
-    >.research
-      margin 10px auto
-      margin-top 0
-      text-align center
-
-    >.content
-      text-indent 0
-
-    >.cv
-      display inline-block
-      margin 0 auto
-      text-align center
-
-    >.contact
-      margin 10px auto
-      text-align center
 
 </style>

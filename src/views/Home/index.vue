@@ -55,6 +55,8 @@ export default class Home extends Mixins(MyMixin) {
       height auto
       padding 0
 
+
+
     >.line
       margin 0 65px 0 60px
       width 1px
