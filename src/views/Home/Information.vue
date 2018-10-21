@@ -53,7 +53,7 @@ export default class MainIntro extends Vue {
   @media screen and (max-width : 900px)
     text-align center
   @media screen and (max-width : 645px)
-    margin-top 40px
+    margin-top 20px
     margin-left 6%
     margin-right 6%
 
