@@ -18,11 +18,11 @@ export default class AvatarImg extends Vue {}
 
     @media screen and (max-width : 900px)
       margin 20px auto
-      width 60%
+      width 80%
       height auto
 
 
     @media screen and (max-width : 420px)
-      width 60%
+      width 80%
 
 </style>
