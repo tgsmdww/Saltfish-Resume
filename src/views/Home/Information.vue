@@ -47,7 +47,7 @@ export default class MainIntro extends Vue {
 <style lang="stylus" scoped>
 .information
   margin 0
-  max-width 400px
+  max-width 420px
   height auto
   text-align right
   @media screen and (max-width : 900px)

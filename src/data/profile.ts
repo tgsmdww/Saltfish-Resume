@@ -1,13 +1,13 @@
 export const researchInterests = [
   {
-    title: "I  Human-Computer Interaction & Accessibility",
+    title: "I  HCI & Accessibility",
     content:
-      "Working with Prof. Shiri Azenkot and her PhD candidate Lei Shi inspired my interests in HCI, especially for accessibility. We did research on projects of for people with visual impairment. The bigger picture is to enable general people to access and analyze information equally. <Strong>To be specific, I wish to expand my research on intelligent user interfaces (mostly mobile) and fabrications (like 3D printed models) to enhance accessibility and remove obstacles in multimodal interactions.</Strong>"
+      "I wish to expand my research on intelligent user interfaces (mostly mobile) and fabrications (like 3D printed models) to enhance accessibility and remove obstacles in multimodal interactions."
   },
   {
-    title: "II  Immersive Analytics & Visualization & Ubiquitous Computing",
+    title: "II  Immersive Visualization & Ubiquitous Computing",
     content:
-      "Directed and mentored by Prof. Yingcai Wu in VIS Group, ZJU, I helped design several immersive analytics projects based on Augmented Reality environment. I am also working with Prof. Kwan-Liu Ma in UC Davis and Zhutian Chen, PhD candidate in HKUST on this topic. <Strong>Generally we are exploring the possibility of combining different types of devices (like Smartphones, Smartwatches, Tablets, HMD sets, Large display walls) together for a joint interaction in a ubiquitous way.</Strong>"
+      "Generally I am exploring the possibility of combining different types of devices (like Smartphones, Smartwatches, Tablets, HMD sets, Large display walls) together for a joint interaction in a ubiquitous way."
   }
 ];
 
