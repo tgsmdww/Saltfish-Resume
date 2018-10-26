@@ -5,6 +5,10 @@
   p.content(
     v-html="content"
   )
+  a.thoughts(
+    href="https://docs.google.com/document/d/1W0ghwVkhBiijrPcyEAMsKwp6U18biX0ul-OwqYptQrE/edit?usp=sharing"
+    target="_blank"
+  )  {{thoughts}}
   a.cv(
     href="/pdf/ZhuohaoZhang-CV.pdf"
     target="_blank"
@@ -38,6 +42,7 @@ export default class MainIntro extends Vue {
   research: string = selfintro.research;
   content: string = selfintro.content;
   cv: string = selfintro.cv;
+  thoughts: string = selfintro.thoughts;
   email: string = selfintro.email;
   github: string = selfintro.github;
   linkedin: string = selfintro.linkedin;
@@ -90,6 +95,17 @@ export default class MainIntro extends Vue {
 
 
   >.cv
+    font-size 20px
+    font-weight bold
+    text-decoration none
+    color #c5e5ff
+    cursor pointer
+    @media screen and (max-width : 900px)
+      display inline-block
+      margin 0 auto
+      text-align center
+
+  >.thoughts
     font-size 20px
     font-weight bold
     text-decoration none
