@@ -72,8 +72,8 @@ export default class portfolio1 extends Mixins(MyMixin) {
   information: object = information;
   atlas: object[] = atlas;
   QAs: object[] = QA;
-  weblink: string = "https://www.interactiveprintedmodels.com"
-  webdescribtion: string = "View Entire Project"
+  weblink: string = "https://www.interactiveprintedmodels.com";
+  webdescribtion: string = "View Entire Project";
 
   mounted() {
     this.inView();

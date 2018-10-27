@@ -10,6 +10,9 @@
     target="_blank"
     v-html="thoughts"
   )
+
+  .separation ||
+
   a.cv(
     href="/pdf/ZhuohaoZhang-CV.pdf"
     target="_blank"
@@ -21,6 +24,11 @@
         aria-hidden="true"
       )
         use(xlink:href="#icon-email")
+    a(href="mailto:zhuohaozhang@zju.edu.cn" target="_blank")
+      svg.icon.facebook(
+        aria-hidden="true"
+      )
+        use(xlink:href="#icon-facebook")
     a(href="https://www.github.com/saltfishzzh" target="_blank")
       svg.icon.github(
         aria-hidden="true"
@@ -95,7 +103,8 @@ export default class MainIntro extends Vue {
     @media screen and (max-width : 645px)
       margin-top 25px
 
-  >.cv
+  >.thoughts
+    margin-right 2em
     font-size 20px
     font-weight bold
     text-decoration none
@@ -104,9 +113,15 @@ export default class MainIntro extends Vue {
     @media screen and (max-width : 900px)
       display inline-block
       margin 0 auto
+      margin-right 1em
       text-align center
 
-  >.thoughts
+  >.separation
+    display inline
+    font-size 20px
+
+  >.cv
+    margin-left 2em
     font-size 20px
     font-weight bold
     text-decoration none
@@ -115,6 +130,7 @@ export default class MainIntro extends Vue {
     @media screen and (max-width : 900px)
       display inline-block
       margin 0 auto
+      margin-left 1em
       text-align center
 
   >.contact
@@ -124,6 +140,12 @@ export default class MainIntro extends Vue {
       text-align center
 
     .email
+      width 32px
+      height 32px
+      margin-right 10px
+      color #c5e5ff
+
+    .facebook
       width 32px
       height 32px
       margin-right 10px
