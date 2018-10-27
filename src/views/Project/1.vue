@@ -5,6 +5,10 @@
     :title="information.heading"
     :content="information.introduction"
   )
+  link-button.link-button(
+    :weblink="weblink"
+    :webdescribtion="webdescribtion"
+  )
   .wrapper
     wrap(
       :title="information.title1"
@@ -43,6 +47,7 @@
 
 <script lang="ts">
 import { Component, Vue, Mixins } from "vue-property-decorator";
+import LinkButton from "@/components/LinkButton.vue";
 import wrap from "./components/wrap.vue";
 import HeadWrap from "./components/HeadWrap.vue";
 import BorderWrap from "./components/BorderWrap.vue";
@@ -54,6 +59,7 @@ import MyMixin from "@/mixin";
 
 @Component({
   components: {
+    LinkButton,
     wrap,
     HeadWrap,
     BorderWrap,
@@ -66,6 +72,8 @@ export default class portfolio1 extends Mixins(MyMixin) {
   information: object = information;
   atlas: object[] = atlas;
   QAs: object[] = QA;
+  weblink: string = "https://www.interactiveprintedmodels.com"
+  webdescribtion: string = "View Entire Project"
 
   mounted() {
     this.inView();
@@ -89,6 +97,9 @@ export default class portfolio1 extends Mixins(MyMixin) {
     background-size 100%
     @media screen and (max-width : 1300px)
       width 1300px
+
+  >.link-button
+    margin 0 10%
 
   >.wrapper
     margin-top 10%

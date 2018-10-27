@@ -15,6 +15,11 @@
     h4.title Address
     p.content {{address}}
   .link.global-fade-in
+    a(href="https://www.facebook.com/zhuohao.zhang.520" target="_blank")
+      svg.icon.facebook(
+        aria-hidden="true"
+      )
+        use(xlink:href="#icon-facebook")
     a(href="https://www.github.com/saltfishzzh" target="_blank")
       svg.icon.github(
         aria-hidden="true"
@@ -89,6 +94,12 @@ export default class Contact extends Mixins(MyMixin) {
     @media screen and (max-width : 420px)
       margin 10px auto
       text-align center
+
+  >.link .facebook
+    margin-right 10px
+    width 32px
+    height 32px
+    color #c5e5ff
 
   >.link .github
     margin-right 10px

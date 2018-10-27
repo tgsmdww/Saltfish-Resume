@@ -8,11 +8,13 @@
   a.thoughts(
     href="https://docs.google.com/document/d/1W0ghwVkhBiijrPcyEAMsKwp6U18biX0ul-OwqYptQrE/edit?usp=sharing"
     target="_blank"
-  )  {{thoughts}}
+    v-html="thoughts"
+  )
   a.cv(
     href="/pdf/ZhuohaoZhang-CV.pdf"
     target="_blank"
-  )  {{cv}}
+    v-html="cv"
+  )
   .contact.global-fade-in
     a(href="mailto:zhuohaozhang@zju.edu.cn" target="_blank")
       svg.icon.email(
@@ -92,7 +94,6 @@ export default class MainIntro extends Vue {
       text-indent 0
     @media screen and (max-width : 645px)
       margin-top 25px
-
 
   >.cv
     font-size 20px

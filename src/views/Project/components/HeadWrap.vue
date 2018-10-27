@@ -32,7 +32,7 @@ export default class Header extends Vue {
     font-weight 600
 
   >.content
-    margin 1em 0 2em 0
+    margin 1em 0 1em 0
     font-size 1.5em
     font-weight 300
     line-height 2

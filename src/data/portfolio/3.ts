@@ -56,14 +56,24 @@ export const type1 = [
     title: "On the streets:",
     content: "Explore the city with AR maps and follow the navigation.",
     picsrc: require("@/assets/Portfolio/menupedia/step1.png"),
-    number: "#icon-one"
+    number: "#icon-one",
+    list: [
+      '1231414141',
+      '1231231241241',
+      '123213123',
+    ]
   },
   {
     title: "In the restaurant:",
     content:
       "Get the fully-pictured menu and have a good look at all the dishes.",
     picsrc: require("@/assets/Portfolio/menupedia/step2.png"),
-    number: "#icon-two"
+    number: "#icon-two",
+    list: [
+      '12314141411222222222222',
+      '1231231241241',
+      '123213123',
+    ]
   }
 ];
 
@@ -85,3 +95,4 @@ export const type2 = [
     picsrc: require("@/assets/Portfolio/menupedia/third4.png")
   }
 ];
+

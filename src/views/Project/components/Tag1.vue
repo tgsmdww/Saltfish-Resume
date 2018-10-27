@@ -10,6 +10,11 @@
     p.content(
       v-html = "content"
     )
+    ul.list
+      li.list-item(
+        v-for="item in list"
+        v-html="item"
+      )
   img.pic(
     :src="picsrc"
   )
@@ -28,6 +33,8 @@ export default class Tag1 extends Vue {
   number!: string;
   @Prop(String)
   picsrc!: string;
+  @Prop(Array)
+  list!: string[];
 }
 </script>
 
@@ -42,7 +49,6 @@ export default class Tag1 extends Vue {
   border solid #274058 1px
   border-radius 5px
   height auto
-  max-height 350px
   background-color rgba(255, 255, 255, 0.01)
 
   >.infomation
@@ -62,15 +68,21 @@ export default class Tag1 extends Vue {
       >.icon
         display inline-block
         margin-right 1em
-        width 2em
-        height 2em
+        width 1.5em
+        height 1.5em
 
       >.title
         display inline-block
-        letter-spacing 0.1em
+        margin .1em 0
 
     >.content
       line-height 2em
+      margin .5em 0
+
+    >.list
+      margin .5em 0
+      >.list-item
+        line-height 1.5
 
 
   >.pic

@@ -77,6 +77,7 @@
         :number="tag.number"
         :content="tag.content"
         :picsrc="tag.picsrc"
+        :list="tag.list"
       )
 
       tag2(
