@@ -57,7 +57,11 @@ export const type1 = [
     content: "Explore the city with AR maps and follow the navigation.",
     picsrc: require("@/assets/Portfolio/menupedia/step1.png"),
     number: "#icon-one",
-    list: ["1231414141", "1231231241241", "123213123"]
+    list: [
+      'Choose a restaurant type to narrow the scale',
+      'Look around on the direction',
+      'Tell the distance simultaneously',
+    ]
   },
   {
     title: "In the restaurant:",
@@ -65,7 +69,11 @@ export const type1 = [
       "Get the fully-pictured menu and have a good look at all the dishes.",
     picsrc: require("@/assets/Portfolio/menupedia/step2.png"),
     number: "#icon-two",
-    list: ["12314141411222222222222", "1231231241241", "123213123"]
+    list: [
+      'Take a picture or use existed pictures',
+      'Select an area of the picture to identify texts',
+      'Bang! Your pictured menu is done',
+    ]
   }
 ];
 

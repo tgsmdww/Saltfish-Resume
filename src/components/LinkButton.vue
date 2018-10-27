@@ -29,7 +29,7 @@ export default class Contact extends Vue {
   margin-bottom 40px
   border 1px solid white
   border-radius 20px
-  width 250px
+  width 240px
   text-decoration none
   letter-spacing 0.1em
   color white
@@ -50,7 +50,7 @@ export default class Contact extends Vue {
     min-width 180px
   >.weblink
     margin-left 10px
-    margin-right 10px
+    margin-right -10px
     width 20px
     height 20px
     @media screen and (max-width : 645px)

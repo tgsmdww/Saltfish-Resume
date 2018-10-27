@@ -104,7 +104,7 @@ export default class MainIntro extends Vue {
       margin-top 25px
 
   >.thoughts
-    margin-right 2em
+    margin-right 0.5em
     font-size 20px
     font-weight bold
     text-decoration none
@@ -113,7 +113,7 @@ export default class MainIntro extends Vue {
     @media screen and (max-width : 900px)
       display inline-block
       margin 0 auto
-      margin-right 1em
+      margin-right 0.5em
       text-align center
 
   >.separation
@@ -121,7 +121,7 @@ export default class MainIntro extends Vue {
     font-size 20px
 
   >.cv
-    margin-left 2em
+    margin-left 0.5em
     font-size 20px
     font-weight bold
     text-decoration none
@@ -130,7 +130,7 @@ export default class MainIntro extends Vue {
     @media screen and (max-width : 900px)
       display inline-block
       margin 0 auto
-      margin-left 1em
+      margin-left 0.5em
       text-align center
 
   >.contact
