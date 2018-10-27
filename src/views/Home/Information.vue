@@ -24,7 +24,7 @@
         aria-hidden="true"
       )
         use(xlink:href="#icon-email")
-    a(href="mailto:zhuohaozhang@zju.edu.cn" target="_blank")
+    a(href="https://www.facebook.com/zhuohao.zhang.520" target="_blank")
       svg.icon.facebook(
         aria-hidden="true"
       )
