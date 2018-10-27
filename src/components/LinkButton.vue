@@ -45,16 +45,12 @@ export default class Contact extends Vue {
   &:visited
     color white
   @media screen and (max-width : 420px)
+    width 200px
     font-size .8em
-    width 80%
-    min-width 180px
   >.weblink
     margin-left 10px
     margin-right -10px
     width 20px
     height 20px
-    @media screen and (max-width : 645px)
-      width 20px
-      height 20px
 
 </style>
