@@ -58,9 +58,9 @@ export const type1 = [
     picsrc: require("@/assets/Portfolio/menupedia/step1.png"),
     number: "#icon-one",
     list: [
-      'Choose a restaurant type to narrow the scale',
-      'Look around on the direction',
-      'Tell the distance simultaneously',
+      "Choose a restaurant type to narrow the scale",
+      "Look around on the direction",
+      "Tell the distance simultaneously"
     ]
   },
   {
@@ -70,9 +70,9 @@ export const type1 = [
     picsrc: require("@/assets/Portfolio/menupedia/step2.png"),
     number: "#icon-two",
     list: [
-      'Take a picture or use existed pictures',
-      'Select an area of the picture to identify texts',
-      'Bang! Your pictured menu is done',
+      "Take a picture or use existed pictures",
+      "Select an area of the picture to identify texts",
+      "Bang! Your pictured menu is done"
     ]
   }
 ];
