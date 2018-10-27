@@ -35,7 +35,7 @@ export default class Contact extends Vue {
   color white
   background transparent
   cursor pointer
-  transition background-color 0.2s ease-in-out
+  transition background-color .2s ease 0s
 
   &:hover
     color gray
