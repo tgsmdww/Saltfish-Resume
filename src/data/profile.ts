@@ -31,6 +31,12 @@ export const publications = [
       "A Demo of Talkit++: Interacting with 3D Printed Models Using iOS Devices",
     authors: "Lei Shi, <strong>Zhuohao Zhang</strong>, Shiri Azenkot",
     source: "ASSETS 2018 Demo Paper (Accepted)"
+  },
+  {
+    title: 
+      "2 CHI'19 Student Competition Paper and 1 IEEE'VR19 Paper in Progress, Coming Soon!",
+    authors: "With fellow students from ZJU, UIUC, Princeton, and VIDI Lab at UC Davis",
+    source: ""
   }
 ];
 
@@ -115,14 +121,19 @@ export const experiences = [
 
 export const aboutme = [
   {
-    content: "Thai & Japanese food lover, always willing to try new cuisine"
+    content:
+      "Good at Chinese Calligraphy Design. National Championship Level of Handwritting"
+  },
+  {
+    content: 
+      "Thai food lover, A good Chinese food cook inherited from family tradition"
   },
   {
     content:
-      "Travel lover, but terrible at photography and working on improving it :)"
+      "Travel lover, But terrible at photography and working on improving it :)"
   },
   {
     content:
-      "Sci-Fi addicted, DC Fan, American drama lover, Dreaming of going to Hogwarts"
+      "Sci-Fi addicted, DC Fan, American drama lover, Big Harry Potter fan, Still dreaming of going to Hogwarts"
   }
 ];

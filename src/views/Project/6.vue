@@ -26,6 +26,14 @@
       swiper.swiper(
         :atlas="atlas2"
       )
+    .swiperwrap
+      wrap.discription(
+        :title="information.title4"
+        :content="information.content4"
+      )
+      swiper.swiper(
+        :atlas="atlas3"
+      )
 
   gc-copyright
 </template>
@@ -36,7 +44,8 @@ import wrap from "./components/wrap.vue";
 import HeadWrap from "./components/HeadWrap.vue";
 import swiper from "./components/swiper.vue";
 
-import { information, atlas1, atlas2 } from "@/data/portfolio/6";
+import { information, atlas1, atlas2, atlas3 } from "@/data/portfolio/6";
+import { atlas } from '@/data/portfolio/1';
 
 @Component({
   components: {
@@ -49,6 +58,7 @@ export default class portfolio1 extends Vue {
   information: object = information;
   atlas1: object[] = atlas1;
   atlas2: object[] = atlas2;
+  atlas3: object[] = atlas3;
 }
 </script>
 

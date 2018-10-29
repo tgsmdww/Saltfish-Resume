@@ -38,7 +38,7 @@ export default [
     router: "/portfolio/graphicsdesign",
     name: "item6",
     type: "Others",
-    picsrc1: require("@/assets/portfoliopic/6.png"),
+    picsrc1: require("@/assets/portfoliopic/6.jpeg"),
     picsrc2: require("@/assets/portfoliopic/6_2.png")
   },
   {
