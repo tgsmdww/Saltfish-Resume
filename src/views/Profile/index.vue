@@ -25,9 +25,9 @@
     )
 
   .theme
-    h2.title - Travels -
+    h2.title - Talks -
     profile-wrap(
-      v-for="(item, i) in travels"
+      v-for="(item, i) in talks"
       :key="i"
       :title="item.time"
       :content2="item.content"
@@ -63,7 +63,7 @@ import introduction from "@/data/mainintro";
 import {
   researchInterests,
   publications,
-  travels,
+  talks,
   experiences,
   aboutme
 } from "@/data/profile";
@@ -78,7 +78,7 @@ export default class Profile extends Vue {
   content: string = introduction.content;
   interests: object[] = researchInterests;
   publications: object[] = publications;
-  travels: object[] = travels;
+  talks: object[] = talks;
   experiences: object[] = experiences;
   aboutme: object[] = aboutme;
 }

@@ -6,11 +6,13 @@ export const information = {
     "Tactile models are important learning materials for visually impaired students. With the adoption of 3D printing technologies, visually impaired students and teachers will have more access to 3D printed tactile models. We designed Talkit++, an iOS application that plays audio and visual content as a user touches parts of a 3D print. With Talkit++, a visually impaired student can explore a printed model tactilely and use hand gestures and speech commands to get more information about certain elements in the model. Talkit++ detects the model and hand gestures using computer vision algorithms, simple accessories like paper stickers and printable trackers, and the built-in RGB camera on an iOS device. Based on the model’s position and the user’s input, Talkit++ speaks textual information, plays audio recordings, and displays visual animations.",
   title2: "FULL CITATION",
   content2:
-    "Lei Shi, Zhuohao Zhang, Shiri Azenkot.2018. A Demo of Talkit++: Interacting with 3D Printed Models Using iOS Devices. In Proceedings of the 20th International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS '18 demo). ACM, Galway, Ireland. (to appear)",
+    "Shi, Lei, Zhuohao Zhang, and Shiri Azenkot. 'A Demo of Talkit++: Interacting with 3D Printed Models Using an iOS Device.' Proceedings of the 20th International ACM SIGACCESS Conference on Computers and Accessibility. ACM, 2018.",
   title3: "MEDIA AND IMAGES",
   title4: "A demo of Talkit++: FREQUENTLY ASKED QUESTIONS",
   pdfhref: "/pdf/assets18.pdf",
-  pdfcontent: "DOWNLOAD PAPER"
+  pdfcontent: "DOWNLOAD PAPER",
+  pdfhref2: "/pdf/assetsPoster.pdf",
+  pdfcontent2: "VIEW POSTER"
 };
 
 export const atlas = [

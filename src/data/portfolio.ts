@@ -14,6 +14,13 @@ export default [
     picsrc2: require("@/assets/portfoliopic/2_2.png")
   },
   {
+    router: "/portfolio/gpk",
+    name: "item9",
+    type: "Research",
+    picsrc1: require("@/assets/portfoliopic/9.png"),
+    picsrc2: require("@/assets/portfoliopic/9_2.png")
+  },
+  {
     router: "/portfolio/menupedia",
     name: "item3",
     type: "Projects",

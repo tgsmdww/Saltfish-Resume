@@ -12,6 +12,7 @@ import courseprojects from "./views/Project/5.vue";
 import graphicsdesign from "./views/Project/6.vue";
 import aaai19 from "./views/Project/7.vue";
 import wallcontroller from "./views/Project/8.vue";
+import gpk from "./views/Project/9.vue";
 
 Vue.use(Router);
 
@@ -59,6 +60,13 @@ export default new Router({
       name: "chi19",
       components: {
         portfolio: chi19
+      }
+    },
+    {
+      path: "/portfolio/gpk",
+      name: "gpk",
+      components: {
+        portfolio: gpk
       }
     },
     {

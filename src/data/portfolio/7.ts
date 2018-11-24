@@ -7,7 +7,7 @@ export const information = {
     "Chinese medicine text processing are important in medical research. Relation extraction in these texts helps accelerate related researches greatly. However, there is no model built specifically for these texts, and previously there is no large scale data set for training specified models. In this paper, we propose a solution to the Relation Extraction problem based on Chinese medicine dataset. We proposed an improved Residual Neural Network (ResCNN) with sentence-level attention over multiple instances to obtain better results, and constructed a large-scale dataset for NLP tasks rated to Chinese medicine texts. Our model is deployed in part of the knowledge base system at Alibaba.",
   title2: "Acknowledgement",
   content2:
-    "I work with Tianxiang Gao, Xi Yang, Linlin Li, and Prof. Zhou Zhao on this. It is currently under review of <strong>AAAI 2019</strong>",
+    "I work with Tianxiang Gao, Xi Yang, Linlin Li, and Prof. Zhou Zhao on this.",
   title3: "MEDIA AND IMAGES",
   title4: "Designing I3Ms with TVIs: FREQUENTLY ASKED QUESTIONS",
   pdfhref: "/pdf/aaai19.pdf",

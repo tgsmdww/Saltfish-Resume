@@ -5,10 +5,6 @@
     :title="information.heading"
     :content="information.introduction"
   )
-  link-button.link-button(
-    :weblink="weblink"
-    :webdescribtion="webdescribtion"
-  )
   .wrapper
     wrap(
       :title="information.title1"
@@ -21,10 +17,6 @@
     download-button(
       :pdfhref="information.pdfhref"
       :pdfcontent="information.pdfcontent"
-    )
-    download-button(
-      :pdfhref="information.pdfhref2"
-      :pdfcontent="information.pdfcontent2"
     )
     wrap(
       :title="information.title3"
@@ -58,7 +50,7 @@ import BorderWrap from "./components/BorderWrap.vue";
 import DownloadButton from "./components/DownloadButton.vue";
 import PicWrap from "./components/PicWrap.vue";
 import AskQuestion from "./components/AskQuestion.vue";
-import { information, atlas, QA } from "@/data/portfolio/1";
+import { information, atlas, QA } from "@/data/portfolio/9";
 import MyMixin from "@/mixin";
 
 @Component({
@@ -76,7 +68,6 @@ export default class portfolio1 extends Mixins(MyMixin) {
   information: object = information;
   atlas: object[] = atlas;
   QAs: object[] = QA;
-  weblink: string = "https://www.interactiveprintedmodels.com";
   webdescribtion: string = "View Entire Project";
 
   mounted() {
@@ -96,7 +87,7 @@ export default class portfolio1 extends Mixins(MyMixin) {
     bottom 0
     left 0
     z-index -1
-    background-image linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../assets/Portfolio/assets18/background.jpg")
+    background-image linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../assets/Portfolio/gpk/background.png")
     background-repeat no-repeat
     background-size 100%
     @media screen and (max-width : 1300px)

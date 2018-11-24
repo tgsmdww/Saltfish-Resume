@@ -10,7 +10,7 @@
       :title="information.title1"
       :content="information.content1"
     )
-    h2.nov Working in Progress...Launching on NOV.
+    h2.nov Working in Progress...Launching on March
     gc-copyright
 
 </template>

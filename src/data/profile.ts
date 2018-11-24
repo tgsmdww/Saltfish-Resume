@@ -14,10 +14,10 @@ export const researchInterests = [
 export const publications = [
   {
     title:
-      "Relation Extraction for Chinese Medicine Using ResCNN and Attention",
+      "GPK: An Efficient Special Character Input Method for Keyboards Using Glide",
     authors:
-      "Tianxiang Gao, Xi Yang, <strong>Zhuohao Zhang</strong>, Linlin Li, Zhou Zhao",
-    source: "AAAI 2019 Student Abstract Submitted"
+      "<strong>Zhuohao Zhang</strong>, Xiyuan He\*",
+    source: "CHI 2019 Extended Abstract Submitted"
   },
   {
     title:
@@ -34,29 +34,17 @@ export const publications = [
   },
   {
     title: 
-      "2 CHI'19 Student Competition Paper and 1 IEEE'VR19 Paper in Progress, Coming Soon!",
-    authors: "With fellow students from ZJU, UIUC, Princeton, and VIDI Lab at UC Davis",
+      "1 CHI'19 Student Competition Paper, 1 VIS'19 Paper, and 1 ASSETS'19 Paper in Progress, Coming Soon.",
+    authors: "",
     source: ""
   }
 ];
 
-export const travels = [
+export const talks = [
   {
     time: "2018.10.11-2018.10.12",
     content:
-      "Talk on Tactile Graphics in Education and Careers Symposium, with Ph.D. Candidate Lei Shi, Baltimore, Maryland"
-  },
-  {
-    time: "2018.09.27-2018.12.09",
-    content: "Gonna spend 3 months at Cornell Tech, New York City, New York"
-  },
-  {
-    time: "2018.07.11-2018.09.24",
-    content: "Gonna spend summer at UC Davis, Davis, California"
-  },
-  {
-    time: "2018.03.01-2018.03.04",
-    content: "HackTech at Caltech, Pasadena, California"
+      "Tactile Graphics in Education and Careers Symposium, with Ph.D. Candidate Lei Shi, Baltimore, Maryland"
   }
 ];
 
@@ -122,7 +110,7 @@ export const experiences = [
 export const aboutme = [
   {
     content:
-      "Good at Chinese Calligraphy Design. National Championship Level of Handwritting"
+      "Good at Chinese Calligraphy Design. National Championship Level of Handwriting"
   },
   {
     content: 
