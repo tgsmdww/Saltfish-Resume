@@ -4,15 +4,15 @@ import Home from "./views/Home/index.vue";
 import Profile from "./views/Profile/index.vue";
 import Contact from "./views/Contact/index.vue";
 import Portfolio from "./views/Portfolio/index.vue";
-import assets18 from "./views/Project/1.vue";
-import chi19 from "./views/Project/2.vue";
-import menupedia from "./views/Project/3.vue";
-import aiprojects from "./views/Project/4.vue";
-import courseprojects from "./views/Project/5.vue";
-import graphicsdesign from "./views/Project/6.vue";
-import aaai19 from "./views/Project/7.vue";
-import wallcontroller from "./views/Project/8.vue";
-import gpk from "./views/Project/9.vue";
+import assets18 from "./views/Project/assets18.vue";
+import chi19 from "./views/Project/chi19.vue";
+import menupedia from "./views/Project/menupedia.vue";
+import aiprojects from "./views/Project/aiprojects.vue";
+import courseprojects from "./views/Project/courseprojects.vue";
+import graphicsdesign from "./views/Project/graphicsdesign.vue";
+import aaai19 from "./views/Project/aaai19.vue";
+import wallcontroller from "./views/Project/wallcontroller.vue";
+import gpk from "./views/Project/gpk.vue";
 
 Vue.use(Router);
 

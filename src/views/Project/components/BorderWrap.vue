@@ -42,5 +42,4 @@ export default class BorderWrap extends Vue {
       font-size 1.1em
     >.content
       font-size .9em
-
 </style>

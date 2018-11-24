@@ -10,13 +10,15 @@
     bgColor: "#000", // 矩形背景颜色
     speed: 10 // 回到顶部的速率 越小越快 默认为10
   }
- -->
+-->
 <template>
-  <div class="gotop-box"
-    v-show="status"
-    :style="style"
-    @click="gototop">
-    <Icon v-if="!options.allowImg" :type="options.allowType" :size="options.size" :color="options.allowColor"></Icon>
+  <div class="gotop-box" v-show="status" :style="style" @click="gototop">
+    <Icon
+      v-if="!options.allowImg"
+      :type="options.allowType"
+      :size="options.size"
+      :color="options.allowColor"
+    ></Icon>
   </div>
 </template>
 <script>
@@ -56,8 +58,8 @@ export default {
       _t.scrollTop = document.body.scrollTop
         ? document.body.scrollTop
         : document.documentElement && document.documentElement.scrollTop
-          ? document.documentElement.scrollTop
-          : null;
+        ? document.documentElement.scrollTop
+        : null;
       _t.status = _t.scrollTop && _t.scrollTop > 0;
     };
   },

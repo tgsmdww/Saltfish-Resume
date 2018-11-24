@@ -33,7 +33,6 @@
   gc-copyright.copyright
 </template>
 
-
 <script lang="ts">
 import { Component, Vue, Mixins } from "vue-property-decorator";
 import contact from "@/data/contact";

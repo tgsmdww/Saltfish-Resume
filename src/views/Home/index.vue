@@ -74,7 +74,4 @@ export default class Home extends Mixins(MyMixin) {
     >.home-profile
     >.home-contact
       margin-top 100px
-
-
-
 </style>

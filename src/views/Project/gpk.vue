@@ -1,5 +1,5 @@
 <template lang="pug">
-.assets18
+.gpk
   .background
   head-wrap(
     :title="information.heading"
@@ -77,7 +77,7 @@ export default class portfolio1 extends Mixins(MyMixin) {
 </script>
 
 <style lang="stylus" scoped>
-.assets18
+.gpk
   color #e6e6e6
 
   >.background

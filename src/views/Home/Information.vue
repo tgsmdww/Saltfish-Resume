@@ -161,6 +161,4 @@ export default class MainIntro extends Vue {
       width 32px
       height 32px
       color #c5e5ff
-
-
 </style>

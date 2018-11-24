@@ -53,5 +53,4 @@ export default class Contact extends Vue {
     @media screen and (max-width : 645px)
       width 20px
       height 20px
-
 </style>

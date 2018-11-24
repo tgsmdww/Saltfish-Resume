@@ -47,7 +47,6 @@ export default class Portfolio extends Mixins(MyMixin) {
 }
 </script>
 
-
 <style lang="stylus" scoped>
 .portfolio-page
   color #c5e5ff

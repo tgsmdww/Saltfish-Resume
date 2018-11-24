@@ -5,7 +5,7 @@ export const information = {
   content1:
     "This is a collection of my previous design work. <Strong>Still working on collecting and re-organizing.</Strong>",
   title2: "Chinese Calligraphy Design",
-  content2: 
+  content2:
     "I have been studying Chinese Calligraphy Design for more than a decade now. I have win all kinds of competitions from school level, city level, state level to national level. Finally I was the only champion the year I attended the National Calligraphy Competition for Students. My portfolio was collected and published in several publications.",
   title3: "Harvard Spring Course Session",
   content3:
@@ -28,7 +28,7 @@ export const atlas1 = [
     name: "picture1_3",
     picsrc: require("@/assets/Portfolio/graphicsdesign/1_3.jpeg")
   }
-]
+];
 
 export const atlas2 = [
   {

@@ -45,7 +45,7 @@ import HeadWrap from "./components/HeadWrap.vue";
 import swiper from "./components/swiper.vue";
 
 import { information, atlas1, atlas2, atlas3 } from "@/data/portfolio/6";
-import { atlas } from '@/data/portfolio/1';
+import { atlas } from "@/data/portfolio/1";
 
 @Component({
   components: {

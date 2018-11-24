@@ -62,5 +62,4 @@ export default class Swiper extends Vue {
 
   .pic
     max-width 100%
-
 </style>

@@ -40,5 +40,4 @@ export default class Wrap extends Vue {
 
     >.content
       font-size 1em
-
 </style>

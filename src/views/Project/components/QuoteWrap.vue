@@ -69,5 +69,4 @@ export default class quote extends Vue {
   >.quote
     margin-bottom 1.5em
     padding 1em
-
 </style>

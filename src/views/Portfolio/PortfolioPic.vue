@@ -63,6 +63,4 @@ $height = 400px * 0.75
       box-shadow 0 2px 16px 0 rgba(0, 0, 0, 0.7), 0 26px 38px 0 rgba(0, 0, 0, 0.9)
     >.describe
       width 100%
-
-
 </style>

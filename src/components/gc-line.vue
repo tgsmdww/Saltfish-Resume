@@ -7,7 +7,6 @@ import Vue from "vue";
 export default class line extends Vue {}
 </script>
 
-
 <style lang="stylus" scoped>
 .line
   height 1px

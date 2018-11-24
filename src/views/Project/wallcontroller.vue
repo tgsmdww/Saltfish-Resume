@@ -32,7 +32,7 @@ import { information } from "@/data/portfolio/8";
   components: {
     wrap,
     HeadWrap,
-    BorderWrap,
+    BorderWrap
   }
 })
 export default class wallcontroller extends Vue {
@@ -82,5 +82,4 @@ export default class wallcontroller extends Vue {
       margin 0 auto
       margin-top 5em
       text-align center
-
 </style>

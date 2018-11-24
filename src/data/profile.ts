@@ -2,7 +2,7 @@ export const researchInterests = [
   {
     title: "I  HCI & Accessibility",
     content:
-      "I wish to expand my research on intelligent user interfaces (mostly mobile) and fabrications (like 3D printed models) to enhance accessibility and remove obstacles in multimodal interactions.<a href='http://www.baidu.com' target='_blank' style='color: inherit;text-decoration: none;margin-left: 20px'>[lalala]</a>",
+      "I wish to expand my research on intelligent user interfaces (mostly mobile) and fabrications (like 3D printed models) to enhance accessibility and remove obstacles in multimodal interactions.<a href='http://www.baidu.com' target='_blank' style='color: inherit;text-decoration: none;margin-left: 20px'>[lalala]</a>"
   },
   {
     title: "II  Immersive Visualization & Ubiquitous Computing",
@@ -15,9 +15,9 @@ export const publications = [
   {
     title:
       "GPK: An Efficient Special Character Input Method for Keyboards Using Glide",
-    authors:
-      "<strong>Zhuohao Zhang</strong>, Xiyuan He*",
-    source: "<span style='color: #fff000'>CHI 2019</span> Extended Abstract Submitted"
+    authors: "<strong>Zhuohao Zhang</strong>, Xiyuan He*",
+    source:
+      "<span style='color: #fff000'>CHI 2019</span> Extended Abstract Submitted"
   },
   {
     title:
@@ -30,7 +30,8 @@ export const publications = [
     title:
       "A Demo of Talkit++: Interacting with 3D Printed Models Using iOS Devices",
     authors: "Lei Shi, <strong>Zhuohao Zhang</strong>, Shiri Azenkot",
-    source: "<span style='color: #fff000'>ASSETS 2018</span> Demo Paper (Accepted)"
+    source:
+      "<span style='color: #fff000'>ASSETS 2018</span> Demo Paper (Accepted)"
   },
   {
     title:

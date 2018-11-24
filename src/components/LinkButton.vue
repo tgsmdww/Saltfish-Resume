@@ -52,5 +52,4 @@ export default class Contact extends Vue {
     margin-right -10px
     width 20px
     height 20px
-
 </style>
