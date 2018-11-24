@@ -10,6 +10,10 @@
       :title="information.title1"
       :content="information.content1"
     )
+    border-wrap(
+      :title="information.title2"
+      :content="information.content2"
+    )
     h2.nov Working in Progress...Launching on March
     gc-copyright
 
@@ -20,16 +24,15 @@ import { Component, Vue } from "vue-property-decorator";
 import wrap from "./components/wrap.vue";
 import HeadWrap from "./components/HeadWrap.vue";
 import BorderWrap from "./components/BorderWrap.vue";
-import DownloadButton from "./components/DownloadButton.vue";
 import PicWrap from "./components/PicWrap.vue";
-import AskQuestion from "./components/AskQuestion.vue";
 
 import { information } from "@/data/portfolio/8";
 
 @Component({
   components: {
     wrap,
-    HeadWrap
+    HeadWrap,
+    BorderWrap,
   }
 })
 export default class wallcontroller extends Vue {

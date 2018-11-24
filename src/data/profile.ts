@@ -2,7 +2,7 @@ export const researchInterests = [
   {
     title: "I  HCI & Accessibility",
     content:
-      "I wish to expand my research on intelligent user interfaces (mostly mobile) and fabrications (like 3D printed models) to enhance accessibility and remove obstacles in multimodal interactions."
+      "I wish to expand my research on intelligent user interfaces (mostly mobile) and fabrications (like 3D printed models) to enhance accessibility and remove obstacles in multimodal interactions.<a href='http://www.baidu.com' target='_blank' style='color: inherit;text-decoration: none;margin-left: 20px'>[lalala]</a>",
   },
   {
     title: "II  Immersive Visualization & Ubiquitous Computing",
@@ -16,24 +16,24 @@ export const publications = [
     title:
       "GPK: An Efficient Special Character Input Method for Keyboards Using Glide",
     authors:
-      "<strong>Zhuohao Zhang</strong>, Xiyuan He\*",
-    source: "CHI 2019 Extended Abstract Submitted"
+      "<strong>Zhuohao Zhang</strong>, Xiyuan He*",
+    source: "<span style='color: #fff000'>CHI 2019</span> Extended Abstract Submitted"
   },
   {
     title:
       "Designing interactive 3D printed models with Teachers of the Visually Impaired",
     authors:
       "Lei Shi, Holly M. Lawson, <strong>Zhuohao Zhang</strong>, Shiri Azenkot",
-    source: "CHI 2019 Submitted"
+    source: "<span style='color: #fff000'>CHI 2019</span> Submitted"
   },
   {
     title:
       "A Demo of Talkit++: Interacting with 3D Printed Models Using iOS Devices",
     authors: "Lei Shi, <strong>Zhuohao Zhang</strong>, Shiri Azenkot",
-    source: "ASSETS 2018 Demo Paper (Accepted)"
+    source: "<span style='color: #fff000'>ASSETS 2018</span> Demo Paper (Accepted)"
   },
   {
-    title: 
+    title:
       "1 CHI'19 Student Competition Paper, 1 VIS'19 Paper, and 1 ASSETS'19 Paper in Progress, Coming Soon.",
     authors: "",
     source: ""
@@ -44,7 +44,7 @@ export const talks = [
   {
     time: "2018.10.11-2018.10.12",
     content:
-      "Tactile Graphics in Education and Careers Symposium, with Ph.D. Candidate Lei Shi, Baltimore, Maryland"
+      "<span style='color: #fff000'>Tactile Graphics in Education and Careers Symposium</span>,í with Ph.D. Candidate Lei Shi, Baltimore, Maryland"
   }
 ];
 
@@ -113,7 +113,7 @@ export const aboutme = [
       "Good at Chinese Calligraphy Design. National Championship Level of Handwriting"
   },
   {
-    content: 
+    content:
       "Thai food lover, A good Chinese food cook inherited from family tradition"
   },
   {
