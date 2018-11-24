@@ -2,7 +2,7 @@ export const researchInterests = [
   {
     title: "I  HCI & Accessibility",
     content:
-      "I wish to expand my research on intelligent user interfaces (mostly mobile) and fabrications (like 3D printed models) to enhance accessibility and remove obstacles in multimodal interactions.<a href='http://www.baidu.com' target='_blank' style='color: inherit;text-decoration: none;margin-left: 20px'>[lalala]</a>"
+      "I wish to expand my research on intelligent user interfaces (mostly mobile) and fabrications (like 3D printed models) to enhance accessibility and remove obstacles in multimodal interactions."
   },
   {
     title: "II  Immersive Visualization & Ubiquitous Computing",
@@ -17,21 +17,21 @@ export const publications = [
       "GPK: An Efficient Special Character Input Method for Keyboards Using Glide",
     authors: "<strong>Zhuohao Zhang</strong>, Xiyuan He*",
     source:
-      "<span style='color: #fff000'>CHI 2019</span> Extended Abstract Submitted"
+      "<span style='color: #fff000'>CHI 2019</span> Extended Abstract Submitted <a href='' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[PDF]</a>"
   },
   {
     title:
       "Designing interactive 3D printed models with Teachers of the Visually Impaired",
     authors:
       "Lei Shi, Holly M. Lawson, <strong>Zhuohao Zhang</strong>, Shiri Azenkot",
-    source: "<span style='color: #fff000'>CHI 2019</span> Submitted"
+    source: "<span style='color: #fff000'>CHI 2019</span> Submitted <a href='' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[PDF]</a> <a href='https://www.interactiveprintedmodels.com' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[Link]</a>"
   },
   {
     title:
       "A Demo of Talkit++: Interacting with 3D Printed Models Using iOS Devices",
     authors: "Lei Shi, <strong>Zhuohao Zhang</strong>, Shiri Azenkot",
     source:
-      "<span style='color: #fff000'>ASSETS 2018</span> Demo Paper (Accepted)"
+      "<span style='color: #fff000'>ASSETS 2018</span> Demo Paper (Accepted) <a href='/pdf/assets18.pdf' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[PDF]</a> <a href='/pdf/assetsPoster.pdf' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[Poster]</a> <a href='https://github.com/interactiveprintedmodels/Talkit' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[Link]</a>"
   },
   {
     title:
@@ -45,7 +45,7 @@ export const talks = [
   {
     time: "2018.10.11-2018.10.12",
     content:
-      "<span style='color: #fff000'>Tactile Graphics in Education and Careers Symposium</span>,í with Ph.D. Candidate Lei Shi, Baltimore, Maryland"
+      "<span style='color: #fff000'>Tactile Graphics in Education and Careers Symposium</span>, with Ph.D. Candidate Lei Shi, Baltimore, Maryland"
   }
 ];
 
