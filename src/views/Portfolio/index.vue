@@ -61,14 +61,19 @@ export default class Portfolio extends Mixins(MyMixin) {
       text-align center
 
   >.itemlist
+    margin-left 50px
     display flex
     flex-wrap wrap
-    justify-content center
+    justify-content left
     position relative
     left 1%
     margin-top 2em
     margin-right 50px
     width 100%
+
+    @media screen and (max-width : 420px)
+      margin-left 0px
+      justify-content center
 
 //as homepage component
 .home-portfolio

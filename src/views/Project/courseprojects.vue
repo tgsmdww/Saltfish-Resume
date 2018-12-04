@@ -40,6 +40,33 @@
         :atlas="atlas4"
       )
 
+    .swiperwrap
+      wrap.discription(
+        :title="information.title5"
+        :content="information.content5"
+      )
+      swiper.swiper(
+        :atlas="atlas5"
+      )
+
+    .swiperwrap
+      wrap.discription(
+        :title="information.title6"
+        :content="information.content6"
+      )
+      swiper.swiper(
+        :atlas="atlas6"
+      )
+
+    .swiperwrap
+      wrap.discription(
+        :title="information.title7"
+        :content="information.content7"
+      )
+      swiper.swiper(
+        :atlas="atlas7"
+      )
+
   gc-copyright
 </template>
 
@@ -54,7 +81,10 @@ import {
   atlas1,
   atlas2,
   atlas3,
-  atlas4
+  atlas4,
+  atlas5,
+  atlas6,
+  atlas7
 } from "@/data/portfolio/5";
 
 @Component({
@@ -70,6 +100,9 @@ export default class portfolio1 extends Vue {
   atlas2: object[] = atlas2;
   atlas3: object[] = atlas3;
   atlas4: object[] = atlas4;
+  atlas5: object[] = atlas5;
+  atlas6: object[] = atlas6;
+  atlas7: object[] = atlas7;
 }
 </script>
 
@@ -87,6 +120,7 @@ export default class portfolio1 extends Vue {
     background-image linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../assets/Portfolio/courseprojects/CPU/background.png")
     background-repeat no-repeat
     background-size 100%
+    opacity 0.7
     @media screen and (max-width : 1170px)
       width 1170px
 

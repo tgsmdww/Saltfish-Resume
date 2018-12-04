@@ -28,8 +28,8 @@ export default [
     picsrc2: require("@/assets/portfoliopic/3_2.png")
   },
   {
-    router: "/portfolio/aiprojects",
-    name: "aiprojects",
+    router: "/portfolio/wecare",
+    name: "wecare",
     type: "Projects",
     picsrc1: require("@/assets/portfoliopic/4.png"),
     picsrc2: require("@/assets/portfoliopic/4_2.png")
@@ -45,7 +45,7 @@ export default [
     router: "/portfolio/graphicsdesign",
     name: "graphicsdesign",
     type: "Others",
-    picsrc1: require("@/assets/portfoliopic/6.jpeg"),
+    picsrc1: require("@/assets/portfoliopic/6.png"),
     picsrc2: require("@/assets/portfoliopic/6_2.png")
   },
   {

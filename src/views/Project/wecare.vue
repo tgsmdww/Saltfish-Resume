@@ -50,7 +50,7 @@ import BorderWrap from "./components/BorderWrap.vue";
 import DownloadButton from "./components/DownloadButton.vue";
 import PicWrap from "./components/PicWrap.vue";
 import AskQuestion from "./components/AskQuestion.vue";
-import { information, atlas, QA } from "@/data/portfolio/9";
+import { information, atlas, QA } from "@/data/portfolio/4";
 import MyMixin from "@/mixin";
 
 @Component({
@@ -87,10 +87,10 @@ export default class portfolio1 extends Mixins(MyMixin) {
     bottom 0
     left 0
     z-index -1
-    background-image linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../assets/Portfolio/gpk/background.png")
+    background-image linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../assets/Portfolio/wecare/background.png")
     background-repeat no-repeat
     background-size 100%
-    opacity 0.5
+    opacity 0.7
     @media screen and (max-width : 1300px)
       width 1300px
 

@@ -1,11 +1,11 @@
 export const researchInterests = [
   {
-    title: "I  HCI & Accessibility",
+    title: "HCI & Accessibility",
     content:
       "I wish to expand my research on intelligent user interfaces (mostly mobile) and fabrications (like 3D printed models) to enhance accessibility and remove obstacles in multimodal interactions."
   },
   {
-    title: "II  Immersive Visualization & Ubiquitous Computing",
+    title: "Immersive Visualization & Ubiquitous Computing",
     content:
       "Generally I am exploring the possibility of combining different types of devices (like Smartphones, Smartwatches, Tablets, HMD sets, Large display walls) together for a joint interaction in a ubiquitous way."
   }
@@ -17,35 +17,43 @@ export const publications = [
       "GPK: An Efficient Special Character Input Method for Keyboards Using Glide",
     authors: "<strong>Zhuohao Zhang</strong>, Xiyuan He*",
     source:
-      "<span style='color: #fff000'>CHI 2019</span> Extended Abstract Submitted <a href='' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[PDF]</a>"
+      "<span style='color: #f6e408'>CHI 2019</span> EA Submitted <a href='' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[PDF]</a>"
+  },
+  {
+    title:
+      "WeCare: An Intelligent Tool Enhancing Storytelling Experience to Support Retired Elder’s Mental Wellness",
+    authors: "Zhaoyuan Su, <strong>Zhuohao Zhang</strong>, Fan Lin, Zhou Yu",
+    source: "<span style='color: #f6e408'>CHI 2019</span> EA Submitted <a href='' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[PDF]</a>"
   },
   {
     title:
       "Designing interactive 3D printed models with Teachers of the Visually Impaired",
     authors:
       "Lei Shi, Holly M. Lawson, <strong>Zhuohao Zhang</strong>, Shiri Azenkot",
-    source: "<span style='color: #fff000'>CHI 2019</span> Submitted <a href='' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[PDF]</a> <a href='https://www.interactiveprintedmodels.com' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[Link]</a>"
+    source: "<span style='color: #f6e408'>CHI 2019</span> Submitted <a href='' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[PDF]</a> <a href='https://www.interactiveprintedmodels.com' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[Link]</a>"
   },
   {
     title:
       "A Demo of Talkit++: Interacting with 3D Printed Models Using iOS Devices",
     authors: "Lei Shi, <strong>Zhuohao Zhang</strong>, Shiri Azenkot",
     source:
-      "<span style='color: #fff000'>ASSETS 2018</span> Demo Paper (Accepted) <a href='/pdf/assets18.pdf' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[PDF]</a> <a href='/pdf/assetsPoster.pdf' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[Poster]</a> <a href='https://github.com/interactiveprintedmodels/Talkit' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[Link]</a>"
+      "<span style='color: #f6e408'>ASSETS 2018</span> Demo Paper (Accepted) <a href='/pdf/assets18.pdf' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[PDF]</a> <a href='/pdf/assetsPoster.pdf' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[Poster]</a> <a href='https://github.com/interactiveprintedmodels/Talkit' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[Link]</a>"
   },
   {
     title:
-      "1 CHI'19 Student Competition Paper, 1 VIS'19 Paper, and 1 ASSETS'19 Paper in Progress, Coming Soon.",
-    authors: "",
-    source: ""
+      "Relation Extraction for Chinese Medicine Using ResCNN and Attention",
+    authors: "Tianxiang Gao, Xi Yang, <strong>Zhuohao Zhang</strong>, Linlin Li, Zhou Zhao",
+    source: "Technical Report, Hangzhou, China. Deployed as part of the knowledge base system at Alibaba Inc."
   }
 ];
 
 export const talks = [
   {
-    time: "2018.10.11-2018.10.12",
-    content:
-      "<span style='color: #fff000'>Tactile Graphics in Education and Careers Symposium</span>, with Ph.D. Candidate Lei Shi, Baltimore, Maryland"
+    time: "Oct 11th - 12th, 2018, Baltimore, Maryland ✈️",
+    content1:
+      "<span style='color: #f6e408'>Tactile Graphics in Education and Careers Symposium</span>, with Ph.D. Candidate Lei Shi",
+    content2:
+      "Title: Sensables: 3D Printed Models for Visually Impaired Students"
   }
 ];
 
@@ -90,7 +98,7 @@ export const experiences = [
     title: "Teaching Assistant to Prof. Yale Patt",
     src: require("@/assets/Experience/uta.png"),
     content:
-      "Responsible of TA job for Professor Yale Patt from UT-Austin during his summer course. Encouraged by Prof. Patt to pursue further education in the U.S."
+      "Responsible of TA job for Professor Yale Patt from UT-Austin during his summer course."
   },
   {
     time: "2016.09 - Now",
@@ -104,7 +112,7 @@ export const experiences = [
     title: "Zhejiang University",
     src: require("@/assets/Experience/zju.png"),
     content:
-      "Started College in Zhejiang University, Computer Science and Technology College, with an overall GPA of 3.87/4.00 and major GPA of 3.95/4.00"
+      "Started College in Zhejiang University, Computer Science and Technology College, with an overall GPA of 3.88/4.00 and major GPA of 3.93/4.00"
   }
 ];
 

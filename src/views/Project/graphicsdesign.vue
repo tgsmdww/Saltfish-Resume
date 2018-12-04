@@ -76,6 +76,7 @@ export default class portfolio1 extends Vue {
     background-image linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../assets/Portfolio/graphicsdesign/background.png")
     background-repeat no-repeat
     background-size 100%
+    opacity 0.7
     @media screen and (max-width : 950px)
       width 950px
 

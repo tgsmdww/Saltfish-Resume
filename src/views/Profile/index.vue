@@ -30,7 +30,8 @@
       v-for="(item, i) in talks"
       :key="i"
       :title="item.time"
-      :content2="item.content"
+      :content1="item.content1"
+      :content2="item.content2"
     )
 
   .theme

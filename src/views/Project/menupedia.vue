@@ -143,6 +143,7 @@ export default class portfolio1 extends Mixins(MyMixin) {
     background-image linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../assets/Portfolio/menupedia/background.png")
     background-repeat no-repeat
     background-size 100%
+    opacity 0.7
     @media screen and (max-width : 760px)
       width 760px
 

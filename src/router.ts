@@ -7,7 +7,7 @@ import Portfolio from "./views/Portfolio/index.vue";
 import assets18 from "./views/Project/assets18.vue";
 import chi19 from "./views/Project/chi19.vue";
 import menupedia from "./views/Project/menupedia.vue";
-import aiprojects from "./views/Project/aiprojects.vue";
+import wecare from "./views/Project/wecare.vue";
 import courseprojects from "./views/Project/courseprojects.vue";
 import graphicsdesign from "./views/Project/graphicsdesign.vue";
 import aaai19 from "./views/Project/aaai19.vue";
@@ -77,10 +77,10 @@ export default new Router({
       }
     },
     {
-      path: "/portfolio/aiprojects",
-      name: "aiprojects",
+      path: "/portfolio/wecare",
+      name: "wecare",
       components: {
-        portfolio: aiprojects
+        portfolio: wecare
       }
     },
     {
