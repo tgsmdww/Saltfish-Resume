@@ -1,6 +1,6 @@
 export default {
   name: "Zhuohao ZHANG",
-  research: "HCI Undergraduate Researcher",
+  research: "HCI Researcher",
   email: "zhuohaozhang@zju.edu.cn",
   github: "https://www.github.com/saltfishzzh",
   linkedin: "https://www.linkedin.com/in/zhuohao-zhang-08656510a/",

@@ -7,7 +7,7 @@ export const information = {
     "An interactive 3D printed model (I3M), model that provides an audio description when a user touches components of the model, can help people with visual impairments learn a variety of concepts. However, it is unknown how an I3M should be designed to serve as an effective teaching aid. To address this gap, we conducted two studies with Teachers of the Visually Impaired (TVIs). First, we led two design workshops with 35 TVIs, who modified sample models and added interactive elements to them. Second, we worked with three TVIs to design three I3Ms in an iterative instructional design process. At the end of this process, the TVIs used the I3Ms we designed to teach their students. We conclude that I3Ms should (1) have effective tactile features (e.g., distinctive patterns between components), (2) contain both auditory and visual content (e.g., explanatory animations), and (3) consider pedagogical methods (e.g., overview before details).",
   title2: "Acknowledgement",
   content2:
-    "This work is an extension of Markit & Talkit and Talkit++. I worked with Lei Shi, Prof. Holly Lawson and Prof. Shiri Azenkot for several months to present this. It it currently under review of <strong>CHI 2019</strong>",
+    "This work is an extension of Markit & Talkit and Talkit++. I worked with Lei Shi, Prof. Holly Lawson and Prof. Shiri Azenkot for several months to present this. It it currently under review of <strong>CHI 2019</strong>. My contribution: Implemented the mobile application, participated in qualitative data analysis and paper writing",
   title3: "MEDIA AND IMAGES",
   title4: "Designing I3Ms with TVIs: FREQUENTLY ASKED QUESTIONS",
   pdfhref: "",
@@ -118,18 +118,23 @@ export const QA = [
   },
   {
     question:
-      "Did it work well among teachers and students with visual impairments",
+      "Does it really useful for children with visual impairments?",
     answer:
       "Yes, all students liked I3Ms and thought the model helped them understand the taught concepts. They felt the models were better than traditional tactile graphics and wanted to use I3Ms again in the future. But meanwhile, they also encountered some usability problems due to the limitation of Talkit++. This could be the major concern in the future work."
   },
   {
-    question: "What's your conclusion of these workshops?",
+    question: "What can you conclude?",
     answer:
       "In the first study, we led two design workshops with 35 TVIs, who modified sample models and added interactive elements to them. In the second study, we worked with three TVIs to design three I3Ms in an iterative instructional design process, and the TVIs used the I3Ms to teach their students at the end of this process. The two studies allowed us to derive design guidelines for designing I3Ms, an updated mobile application to support the use of I3Ms in classrooms, and three sample I3Ms."
   },
   {
-    question: "What's your future goal of this project?",
+    question: "Any next steps?",
     answer:
       "We will open source Talkit++ and related design tools as a part of our contributions to the accessibility community. In addition, we will continue to partner with TVIs to design I3M-based curriculum. For example, we could use I3Ms to supplement instruction within a series of mathematics classes. We will also design a 3D modification tool for TVIs. The tool should allow them to easily modify and create models using online resources."
+  },
+  {
+    question: "What did you do exactly in the project?",
+    answer:
+      "I implemented the mobile system, did all the qualitative data analysis and did some paper writing, majorly in the design guidelines part."
   }
 ];
