@@ -15,7 +15,7 @@ export const publications = [
   {
     title:
       "GPK: An Efficient Special Character Input Method for Keyboards Using Glide",
-    authors: "<strong>Zhuohao Zhang</strong>, Xiyuan He*, Kai Zhang",
+    authors: "<strong>Zhuohao Zhang</strong>, Xiyuan He*",
     source:
       "<span style='color: #f6e408'>CHI 2019</span> EA Submitted <a href='/pdf/chi19src.pdf' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[PDF]</a> <a href='/pdf/chi19srcposter.pdf' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[Poster]</a>"
   },
