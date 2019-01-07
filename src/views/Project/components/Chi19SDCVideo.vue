@@ -1,7 +1,7 @@
 <template lang="pug">
 .chi19-video
   iframe.video(
-    src="https://drive.google.com/open?id=1AuIc-HvPzcWullqSd4iRoHB8b-12Rr59"
+    src="https://drive.google.com/file/d/1AuIc-HvPzcWullqSd4iRoHB8b-12Rr59/preview"
     width="640"
     height="480"
   )
