@@ -15,35 +15,39 @@ export const publications = [
   {
     title:
       "GPK: An Efficient Special Character Input Method for Keyboards Using Glide",
-    authors: "<strong>Zhuohao Zhang</strong>, Xiyuan He*",
+    authors: "<strong>Zhuohao Zhang</strong>, Xiyuan He*, Kai Zhang",
     source:
-      "<span style='color: #f6e408'>CHI 2019</span> EA Submitted <a href='' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[PDF]</a>"
+      "<span style='color: #f6e408'>CHI 2019</span> EA Submitted <a href='/pdf/chi19src.pdf' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[PDF]</a> <a href='/pdf/chi19srcposter.pdf' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[Poster]</a>"
   },
   {
     title:
       "WeCare: An Intelligent Tool Enhancing Storytelling Experience to Support Retired Elder’s Mental Wellness",
     authors: "Zhaoyuan Su, <strong>Zhuohao Zhang</strong>, Fan Lin, Zhou Yu",
-    source: "<span style='color: #f6e408'>CHI 2019</span> EA Submitted <a href='' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[PDF]</a>"
+    source:
+      "<span style='color: #f6e408'>CHI 2019</span> EA Submitted <a href='/pdf/chi19sdc.pdf' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[PDF]</a> <a href='/pdf/chi19sdcposter.pdf' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[Poster]</a> <a href='https://drive.google.com/open?id=1AuIc-HvPzcWullqSd4iRoHB8b-12Rr59' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[Video]</a>"
   },
   {
     title:
       "Designing interactive 3D printed models with Teachers of the Visually Impaired",
     authors:
       "Lei Shi, Holly M. Lawson, <strong>Zhuohao Zhang</strong>, Shiri Azenkot",
-    source: "<span style='color: #f6e408'>CHI 2019</span> Submitted <a href='' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[PDF]</a> <a href='https://www.interactiveprintedmodels.com' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[Link]</a>"
+    source:
+      "<span style='color: #f6e408'>CHI 2019</span> <a href='/pdf/chi19.pdf' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[PDF]</a> <a href='https://www.interactiveprintedmodels.com' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[Link]</a> <a href='https://drive.google.com/file/d/1QuJlDkc0Eq9pVeyYWjHgX7hrk9ksX7Eb/preview' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[Video]</a>"
   },
   {
     title:
       "A Demo of Talkit++: Interacting with 3D Printed Models Using iOS Devices",
     authors: "Lei Shi, <strong>Zhuohao Zhang</strong>, Shiri Azenkot",
     source:
-      "<span style='color: #f6e408'>ASSETS 2018</span> Demo Paper (Accepted) <a href='/pdf/assets18.pdf' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[PDF]</a> <a href='/pdf/assetsPoster.pdf' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[Poster]</a> <a href='https://github.com/interactiveprintedmodels/Talkit' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[Link]</a>"
+      "<span style='color: #f6e408'>ASSETS 2018</span> Demo Paper <a href='/pdf/assets18.pdf' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[PDF]</a> <a href='/pdf/assetsPoster.pdf' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[Poster]</a> <a href='https://github.com/interactiveprintedmodels/Talkit' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[Link]</a>"
   },
   {
     title:
       "Relation Extraction for Chinese Medicine Using ResCNN and Attention",
-    authors: "Tianxiang Gao, Xi Yang, <strong>Zhuohao Zhang</strong>, Linlin Li, Zhou Zhao",
-    source: "Technical Report, Hangzhou, China. Deployed as part of the knowledge base system at Alibaba Inc."
+    authors:
+      "Tianxiang Gao, Xi Yang, <strong>Zhuohao Zhang</strong>, Linlin Li, Zhou Zhao",
+    source:
+      "Technical Report, Hangzhou, China. Deployed as part of the knowledge base system at Alibaba Inc."
   }
 ];
 

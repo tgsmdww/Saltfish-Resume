@@ -10,6 +10,7 @@
       :title="information.title1"
       :content="information.content1"
     )
+    chi19-video
     border-wrap(
       :title="information.title2"
       :content="information.content2"
@@ -18,17 +19,30 @@
       :pdfhref="information.pdfhref"
       :pdfcontent="information.pdfcontent"
     )
+    download-button(
+      :pdfhref="information.pdfhref2"
+      :pdfcontent="information.pdfcontent2"
+    )
     wrap(
       :title="information.title3"
     )
     .atlas
-      pic-wrap.pic.global-fade-in(
-        v-for="(pic,i) in atlas"
-        :key="i"
-        :picsrc="pic.picsrc"
-        :alt="pic.name"
-        :content="pic.content"
-      )
+      .left
+        pic-wrap.pic.global-fade-in(
+          v-for="(pic,i) in leftatlas"
+          :key="i"
+          :picsrc="pic.picsrc"
+          :alt="pic.name"
+          :content="pic.content"
+        )
+      .right
+        pic-wrap.pic.global-fade-in(
+          v-for="(pic,i) in rightatlas"
+          :key="i"
+          :picsrc="pic.picsrc"
+          :alt="pic.name"
+          :content="pic.content"
+        )
   wrap.qawrap(
     :title="information.title4"
   )
@@ -49,8 +63,9 @@ import HeadWrap from "./components/HeadWrap.vue";
 import BorderWrap from "./components/BorderWrap.vue";
 import DownloadButton from "./components/DownloadButton.vue";
 import PicWrap from "./components/PicWrap.vue";
+import Chi19Video from "./components/Chi19SDCVideo.vue";
 import AskQuestion from "./components/AskQuestion.vue";
-import { information, atlas, QA } from "@/data/portfolio/4";
+import { information, leftatlas, rightatlas, QA } from "@/data/portfolio/4";
 import MyMixin from "@/mixin";
 
 @Component({
@@ -61,12 +76,14 @@ import MyMixin from "@/mixin";
     BorderWrap,
     DownloadButton,
     PicWrap,
-    AskQuestion
+    AskQuestion,
+    Chi19Video
   }
 })
 export default class portfolio1 extends Mixins(MyMixin) {
   information: object = information;
-  atlas: object[] = atlas;
+  leftatlas: object[] = leftatlas;
+  rightatlas: object[] = rightatlas;
   QAs: object[] = QA;
   webdescribtion: string = "View Entire Project";
 
@@ -91,7 +108,7 @@ export default class portfolio1 extends Mixins(MyMixin) {
     background-repeat no-repeat
     background-size 100%
     opacity 0.7
-    @media screen and (max-width : 1300px)
+    @media screen and (max-width : 900px)
       width 1300px
 
   >.link-button
@@ -104,18 +121,28 @@ export default class portfolio1 extends Mixins(MyMixin) {
     background-repeat no-repeat
     background-size 100%
     background-color #102131
-    clip-path: polygon(0 3%, 100% 0, 100% 100%, 0 97%)
+    clip-path: polygon(0 1.5%, 100% 0, 100% 100%, 0 98.5%)
     @media screen and (max-width : 645px)
       padding 5% 10%
       clip-path polygon(0 1%, 100% 0, 100% 100%, 0 99%)
 
     >.atlas
       display flex
-      flex-direction column
+      flex-wrap nowrap
       justify-content center
-      margin-top 0
-    >.atlas >.pic
-      margin-bottom 2em
+
+    >.atlas >.left
+    >.atlas >.right
+      display flex
+      flex-direction column
+      flex-wrap nowrap
+      width 40%
+
+    >.atlas >.left
+      margin-right 2em
+
+    >.atlas .pic
+      margin 1em 0
 
   >.qawrap
     margin 50px 15%

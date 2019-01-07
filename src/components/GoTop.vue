@@ -58,8 +58,8 @@ export default {
       _t.scrollTop = document.body.scrollTop
         ? document.body.scrollTop
         : document.documentElement && document.documentElement.scrollTop
-        ? document.documentElement.scrollTop
-        : null;
+          ? document.documentElement.scrollTop
+          : null;
       _t.status = _t.scrollTop && _t.scrollTop > 0;
     };
   },

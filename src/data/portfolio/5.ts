@@ -22,7 +22,6 @@ export const information = {
   title7: "YT-Store",
   content7:
     "A C2C E-Commercial platform that based on UGC(User Generated Content) to help young people like college students to browse, buy and share products from overseas."
-  
 };
 
 export const atlas1 = [
@@ -169,4 +168,3 @@ export const atlas7 = [
     picsrc: require("@/assets/Portfolio/courseprojects/YoungTopStore/Slide19.png")
   }
 ];
-
