@@ -17,14 +17,14 @@ export const publications = [
       "GPK: An Efficient Special Character Input Method for Keyboards Using Glide",
     authors: "<strong>Zhuohao Zhang</strong>, Xiyuan He*",
     source:
-      "<span style='color: #f6e408'>CHI 2019</span> EA Submitted <a href='/pdf/chi19src.pdf' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[PDF]</a> <a href='/pdf/chi19srcposter.pdf' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[Poster]</a>"
+      "<span style='color: #f6e408'>CHI 2019 EA Accepted</span> <a href='/pdf/chi19src.pdf' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[PDF]</a> <a href='/pdf/chi19srcposter.pdf' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[Poster]</a>"
   },
   {
     title:
       "WeCare: An Intelligent Tool Enhancing Storytelling Experience to Support Retired Elder’s Mental Wellness",
     authors: "Zhaoyuan Su, <strong>Zhuohao Zhang</strong>, Fan Lin, Zhou Yu",
     source:
-      "<span style='color: #f6e408'>CHI 2019</span> EA Submitted <a href='/pdf/chi19sdc.pdf' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[PDF]</a> <a href='/pdf/chi19sdcposter.pdf' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[Poster]</a> <a href='https://drive.google.com/open?id=1AuIc-HvPzcWullqSd4iRoHB8b-12Rr59' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[Video]</a>"
+      "<span style='color: #f6e408'>CHI 2019 EA</span> In Submission <a href='/pdf/chi19sdc.pdf' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[PDF]</a> <a href='/pdf/chi19sdcposter.pdf' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[Poster]</a> <a href='https://drive.google.com/open?id=1AuIc-HvPzcWullqSd4iRoHB8b-12Rr59' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[Video]</a>"
   },
   {
     title:
@@ -32,7 +32,7 @@ export const publications = [
     authors:
       "Lei Shi, Holly M. Lawson, <strong>Zhuohao Zhang</strong>, Shiri Azenkot",
     source:
-      "<span style='color: #f6e408'>CHI 2019</span> <a href='/pdf/chi19.pdf' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[PDF]</a> <a href='https://www.interactiveprintedmodels.com' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[Link]</a> <a href='https://drive.google.com/file/d/1QuJlDkc0Eq9pVeyYWjHgX7hrk9ksX7Eb/preview' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[Video]</a>"
+      "<span style='color: #f6e408'>CHI 2019 Accepted</span> <a href='/pdf/chi19.pdf' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[PDF]</a> <a href='https://www.interactiveprintedmodels.com' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[Link]</a> <a href='https://drive.google.com/file/d/1QuJlDkc0Eq9pVeyYWjHgX7hrk9ksX7Eb/preview' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[Video]</a>"
   },
   {
     title:
