@@ -9,7 +9,7 @@ export const information = {
   content2:
     "I work with another ZJU student Xiyuan He on this project. The paper was accepted by CHI'19 Extended Abstract, Student Research Competition",
   title3: "MEDIA AND IMAGES",
-  title4: "GPK: FREQUENTLY ASKED QUESTIONS",
+  title4: "GPK: A Quick Review",
   pdfhref: "/pdf/chi19src.pdf",
   pdfcontent: "DOWNLOAD PAPER",
   pdfhref2: "/pdf/chi19srcposter.pdf",

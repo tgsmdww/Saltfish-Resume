@@ -10,7 +10,7 @@ export const information = {
   content2:
     "I work with Zhaoyuan Su (UIUC), Fan Lin (CCA), Zhou Yu (Princeton) on this project. The project is submitted to CHI'19 Student Design Competition.",
   title3: "MEDIA AND IMAGES",
-  title4: "WeCare: FREQUENTLY ASKED QUESTIONS",
+  title4: "WeCare: A Quick Review",
   pdfhref: "/pdf/chi19sdc.pdf",
   pdfcontent: "DOWNLOAD PAPER",
   pdfhref2: "/pdf/chi19sdcposter.pdf",

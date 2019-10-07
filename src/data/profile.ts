@@ -1,14 +1,14 @@
 export const researchInterests = [
   {
-    title: "HCI & Accessibility",
+    title: "HCI + AI",
     content:
-      "I wish to expand my research on intelligent user interfaces (mostly mobile) and fabrications (like 3D printed models) to enhance accessibility and remove obstacles in multimodal interactions."
-  },
-  {
-    title: "Immersive Visualization & Ubiquitous Computing",
-    content:
-      "Generally I am exploring the possibility of combining different types of devices (like Smartphones, Smartwatches, Tablets, HMD sets, Large display walls) together for a joint interaction in a ubiquitous way."
+      "I wish to expand my research on applying AI methods (like data-driven, vision-based, machine learning, or information retrieval) to design and evaluate intelligent user interfaces (mostly mobile or web-based applications). Currently I am working on extracting information encoded in social network Emoji sequences and empirically measure properties from this information channel"
   }
+  // {
+  //   title: "HCI + Visualization",
+  //   content:
+  //     " I am also interested in novel visualizations like immersive analytics, and exploring joint interactions among different devices like smartwatches, smartphones and big screens in those vis systems."
+  // }
 ];
 
 export const publications = [
@@ -17,14 +17,7 @@ export const publications = [
       "GPK: An Efficient Special Character Input Method for Keyboards Using Glide",
     authors: "<strong>Zhuohao Zhang</strong>, Xiyuan He*",
     source:
-      "<span style='color: #f6e408'>CHI 2019 EA Accepted</span> <a href='/pdf/chi19src.pdf' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[PDF]</a> <a href='/pdf/chi19srcposter.pdf' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[Poster]</a>"
-  },
-  {
-    title:
-      "WeCare: An Intelligent Tool Enhancing Storytelling Experience to Support Retired Elder’s Mental Wellness",
-    authors: "Zhaoyuan Su, <strong>Zhuohao Zhang</strong>, Fan Lin, Zhou Yu",
-    source:
-      "<span style='color: #f6e408'>CHI 2019 EA</span> In Submission <a href='/pdf/chi19sdc.pdf' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[PDF]</a> <a href='/pdf/chi19sdcposter.pdf' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[Poster]</a> <a href='https://drive.google.com/open?id=1AuIc-HvPzcWullqSd4iRoHB8b-12Rr59' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[Video]</a>"
+      "<span style='color: #f6e408'>CHI 2019 EA</span> <a href='/pdf/chi19src.pdf' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[PDF]</a> <a href='/pdf/chi19srcposter.pdf' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[Poster]</a>"
   },
   {
     title:
@@ -32,7 +25,7 @@ export const publications = [
     authors:
       "Lei Shi, Holly M. Lawson, <strong>Zhuohao Zhang</strong>, Shiri Azenkot",
     source:
-      "<span style='color: #f6e408'>CHI 2019 Accepted</span> <a href='/pdf/chi19.pdf' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[PDF]</a> <a href='https://www.interactiveprintedmodels.com' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[Link]</a> <a href='https://drive.google.com/file/d/1QuJlDkc0Eq9pVeyYWjHgX7hrk9ksX7Eb/preview' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[Video]</a>"
+      "<span style='color: #f6e408'>CHI 2019</span> <a href='/pdf/chi19.pdf' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[PDF]</a> <a href='https://www.interactiveprintedmodels.com' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[Link]</a> <a href='https://drive.google.com/file/d/1QuJlDkc0Eq9pVeyYWjHgX7hrk9ksX7Eb/preview' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[Video]</a>"
   },
   {
     title:
@@ -43,15 +36,29 @@ export const publications = [
   },
   {
     title:
-      "Relation Extraction for Chinese Medicine Using ResCNN and Attention",
-    authors:
-      "Tianxiang Gao, Xi Yang, <strong>Zhuohao Zhang</strong>, Linlin Li, Zhou Zhao",
+      "WeCare: An Intelligent Tool Enhancing Storytelling Experience to Support Retired Elder’s Mental Wellness",
+    authors: "Zhaoyuan Su, <strong>Zhuohao Zhang</strong>, Fan Lin, Zhou Yu",
     source:
-      "Technical Report, Hangzhou, China. Deployed as part of the knowledge base system at Alibaba Inc."
+      "Technical Report <a href='/pdf/chi19sdc.pdf' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[PDF]</a> <a href='/pdf/chi19sdcposter.pdf' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[Poster]</a> <a href='https://drive.google.com/open?id=1AuIc-HvPzcWullqSd4iRoHB8b-12Rr59' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[Video]</a>"
   }
+  // {
+  //   title:
+  //     "Relation Extraction for Chinese Medicine Using ResCNN and Attention",
+  //   authors:
+  //     "Tianxiang Gao, Xi Yang, <strong>Zhuohao Zhang</strong>, Linlin Li, Zhou Zhao",
+  //   source:
+  //     "Technical Report, Hangzhou, China. Deployed as part of the knowledge base system at Alibaba Inc."
+  // }
 ];
 
 export const talks = [
+  {
+    time: "May 4th - 9th, 2019, Glasgow, UK ✈️",
+    content1:
+      "<span style='color: #f6e408'>CHI 2019 SRC</span>",
+    content2:
+      "Presenting GPK: An Efficient Special Character Input Method for Keyboards Using Glide"
+  },
   {
     time: "Oct 11th - 12th, 2018, Baltimore, Maryland ✈️",
     content1:
@@ -63,39 +70,39 @@ export const talks = [
 
 export const experiences = [
   {
+    time: "2019.8 - Now",
+    title: "Research Internship at UIUC",
+    src: require("@/assets/Experience/uiuc.jpg"),
+    content:
+      "Work at Data Driven Design Group with Prof. Ranjitha Kumar on Opico, a social media research"
+  },
+  {
     time: "2018.10 - 2018.12",
     title: "Cornell Tech Internship",
     src: require("@/assets/Experience/Cornell.jpg"),
     content:
-      "Research Assistant at Cornell Tech undering Prof. Shiri Azenkot's direction. Have been working with them for several months on HCI projects"
+      "Research Assistant at Cornell Tech with Prof. Shiri Azenkot on Talkit, an accessibility research"
   },
-  {
-    time: "2018.07 - 2018.10",
-    title: "UC Davis Summer Internship",
-    src: require("@/assets/Experience/UCD.jpg"),
-    content:
-      "Research Assistant at UC Davis undering Prof. Kwan-Liu Ma's direction. Developed some intelligent interactive system between the large display wall and smartphones"
-  },
-  {
-    time: "2018.05 - 2018.08",
-    title: "Remote work with Vis Group, HKUST",
-    src: require("@/assets/Experience/hkust.png"),
-    content:
-      "Remotely worked with Ph.D. candidate Zhutian Chen and Ph.D. student Yifang Wang in the HongKong University of Science and Technology on an immersive analytics project"
-  },
+  // {
+  //   time: "2018.07 - 2018.10",
+  //   title: "UC Davis Summer Internship",
+  //   src: require("@/assets/Experience/UCD.jpg"),
+  //   content:
+  //     "Research Assistant at UC Davis undering Prof. Kwan-Liu Ma's direction. Developed some intelligent interactive system between the large display wall and smartphones"
+  // },
   {
     time: "2016.09 - 2018.06",
     title: "Research Assistant in Arc Lab, ZJU",
     src: require("@/assets/Experience/arc.png"),
     content:
-      "Joined Prof. Qingsong Shi's Architecture lab and finished CPU and hardware system design and optimization with fellow students from scratch over 5 courses with 20 credits"
+      "Joined Prof. Qingsong Shi's Architecture lab to complete computer system integration project"
   },
   {
     time: "2017.04 - 2018.04",
-    title: "Research Assistant in VIS Group, ZJU",
+    title: "Research Assistant in IDG, ZJU",
     src: require("@/assets/Experience/vis.png"),
     content:
-      "Directed and mentored by Prof. Yingcai Wu, and work on projects of AR-based visual analytics project. Received basic research trainings in VIS Group"
+      "Joined Prof. Yingcai Wu's Interactive Data Group on projects of AR/VR based visual analytics"
   },
   {
     time: "2017.07 - 2017.08",
@@ -105,36 +112,36 @@ export const experiences = [
       "Responsible of TA job for Professor Yale Patt from UT-Austin during his summer course."
   },
   {
-    time: "2016.09 - Now",
+    time: "2016.09 - 2019.6",
     title: "Honors College in ZJU",
     src: require("@/assets/Experience/ckc.png"),
     content:
-      "Selected through interviews to enter the Honors College in ZJU, Computer Science Class. Received 3 First-Class Scholarship for academic performance in basic subjects in 3 continuous years"
+      "Transferred to the Chu Kochen Honors College in ZJU, Computer Science Class"
   },
   {
-    time: "2015.09 - Now",
+    time: "2015.09 - 2019.6",
     title: "Zhejiang University",
     src: require("@/assets/Experience/zju.png"),
     content:
-      "Started College in Zhejiang University, Computer Science and Technology College, with an overall GPA of 3.88/4.00 and major GPA of 3.93/4.00"
+      "Received Bachelor's Degree at Zhejiang University, major in Computer Science and Technology, with an overall GPA of 3.88/4.00 and major GPA of 3.93/4.00"
   }
 ];
 
 export const aboutme = [
   {
     content:
-      "Good at Chinese Calligraphy Design. National Championship Level of Handwriting"
+      "Excel at Chinese Calligraphy Design. National championship level of handwriting design"
   },
   {
     content:
-      "Thai food lover, A good Chinese food cook inherited from family tradition"
+      "Thai food lover, as well as a good Chinese food cook inherited from family tradition"
   },
   {
     content:
-      "Travel lover, But terrible at photography and working on improving it :)"
+      "Travel lover, but terrible at photography and working on improving it :)"
   },
   {
     content:
-      "Sci-Fi addicted, DC Fan, American drama lover, Big Harry Potter fan, Still dreaming of going to Hogwarts"
+      "Sci-Fi addicted, DC Fan, american drama lover, big Harry Potter fan, still dreaming of going to Hogwarts"
   }
 ];

@@ -48,18 +48,18 @@ export default [
     picsrc1: require("@/assets/portfoliopic/6.png"),
     picsrc2: require("@/assets/portfoliopic/6_2.png")
   },
-  {
-    router: "/portfolio/aaai19",
-    name: "aaai19",
-    type: "Research",
-    picsrc1: require("@/assets/portfoliopic/7.png"),
-    picsrc2: require("@/assets/portfoliopic/7_2.png")
-  },
-  {
-    router: "/portfolio/wallcontroller",
-    name: "wallcontroller",
-    type: "Research",
-    picsrc1: require("@/assets/portfoliopic/8.png"),
-    picsrc2: require("@/assets/portfoliopic/8_2.png")
-  }
+  // {
+  //   router: "/portfolio/aaai19",
+  //   name: "aaai19",
+  //   type: "Research",
+  //   picsrc1: require("@/assets/portfoliopic/7.png"),
+  //   picsrc2: require("@/assets/portfoliopic/7_2.png")
+  // },
+  // {
+  //   router: "/portfolio/wallcontroller",
+  //   name: "wallcontroller",
+  //   type: "Research",
+  //   picsrc1: require("@/assets/portfoliopic/8.png"),
+  //   picsrc2: require("@/assets/portfoliopic/8_2.png")
+  // }
 ];

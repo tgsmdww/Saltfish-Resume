@@ -5,10 +5,10 @@
   p.content(
     v-html="content"
   )
-  a.thoughts(
-    href="https://docs.google.com/document/d/1W0ghwVkhBiijrPcyEAMsKwp6U18biX0ul-OwqYptQrE/edit?usp=sharing"
+  a.blog(
+    href="http://blog.zhuohaozhang.com/"
     target="_blank"
-    v-html="thoughts"
+    v-html="blog"
   )
 
   .separation ||
@@ -52,7 +52,7 @@ export default class MainIntro extends Vue {
   research: string = selfintro.research;
   content: string = selfintro.content;
   cv: string = selfintro.cv;
-  thoughts: string = selfintro.thoughts;
+  blog: string = selfintro.blog;
   email: string = selfintro.email;
   github: string = selfintro.github;
   linkedin: string = selfintro.linkedin;
@@ -103,7 +103,7 @@ export default class MainIntro extends Vue {
     @media screen and (max-width : 645px)
       margin-top 25px
 
-  >.thoughts
+  >.blog
     margin-right 0.5em
     font-size 20px
     font-weight bold

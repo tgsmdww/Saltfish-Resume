@@ -9,7 +9,7 @@ export const information = {
   content2:
     "I work with Tianxiang Gao, Xi Yang, Linlin Li, and Prof. Zhou Zhao on this. The project was deployed as part of the knowledge base system at Alibaba Inc.",
   title3: "MEDIA AND IMAGES",
-  title4: "Designing I3Ms with TVIs: FREQUENTLY ASKED QUESTIONS",
+  title4: "Designing I3Ms with TVIs: A Quick Review",
   pdfhref: "/pdf/aaai19.pdf",
   pdfcontent: "DOWNLOAD PAPER"
 };

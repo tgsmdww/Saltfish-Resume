@@ -1,8 +1,8 @@
 export default {
   content:
-    "Hi, I am actively looking for potential research collaborations. Feel free to contact me if you want to talk about Accessibility, AR, Visualization and General HCI. I am always happy to begin something interesting.",
-  email: "zhuohaozhang@zju.edu.cn",
-  phone: "+86 18867547345",
+    "Hi, I am actively looking for summer research assistant positions or internships. Feel free to contact me if you want to talk about HCI+AI. I am always happy to begin something interesting.",
+  email: "zhuohao4@illinois.edu",
+  phone: "+1(217)979-6769",
   address:
-    "32nd Dorm, 38 Zheda Road, Yuquan Campus, Zhejiang University, Hangzhou, P.R.China. 310027"
+    "508 E University Ave, Champaign, IL, 61820"
 };

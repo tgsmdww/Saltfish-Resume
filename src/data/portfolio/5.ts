@@ -4,15 +4,15 @@ export const information = {
   title1: "AR Collaborative Vis",
   content1:
     "We explore the possibility of an AR-based Collaborative platform that allows users to select business locations. Say that your group needs to select a location to run business, we need to collaboratively make a decision based on the massive data which presented in the platform. The problem can be: How to display information such as traffic, weather, unexpected disasters clearly in a VR-3D world. How to automatically calculate several candidates meeting users' demands. We present the prototype, trying to offer a solution to urban-context based decision making problem, in which we describe how multiple users can walk through the workflow of the decision-making process by collaboration in an immersive environment. ",
-  title2: "CPU from scratch",
+  title2: "Computer System Integration",
   content2:
-    "CPU and Operating System Design from scratch on hardware. I was responsible for CPU design and hardware system design and optimization with fellow students through 5 courses of 20 credits. The design include Single-Cycle, Multi-Cycle, and Pipeline CPU, I also helped design a System-on-Chips. Additionally, I contributed to an operation system and some basic applications built from scratch on hardware.",
+    "CPU and Operating System Design from scratch on hardware. I was responsible for CPU design and hardware system design and optimization with fellow students through 5 courses of 20 credits. The design includes Single-Cycle, Multi-Cycle, and Pipeline CPU, I also helped design a System-on-Chips. Additionally, I contributed to an operation system and some basic applications built from scratch on hardware.",
   title3: "MiniAlphaGo-Reversi",
   content3:
-    "AlphaGo is the first computer program to defeat a professional human Go player, the first program to defeat a Go world champion, and arguably the strongest Go player in history. I learned the basic algorithms and thoughts of this remarkable technology, and implemented a mini-Alpha Go. <br>How it would help with design and interactions, you may ask. The search algorithms are exactly the methods that may come to use when we try to make our applications and interactions with human more human. It can actually learn from itself and the past histories by evaluating in an intelligent way.</br> We used Monte-Carlo-Tree-Search method with a few tricks.",
+    "AlphaGo is the first computer program to defeat a professional human Go player, the first program to defeat a Go world champion, and arguably the strongest Go player in history. I learned the basic algorithms and thoughts of this remarkable technology, and implemented a mini-Alpha Go. We used Monte-Carlo-Tree-Search and a Convolutional Neural Network method with a few tricks.",
   title4: "Image Restoration",
   content4:
-    "Sometimes your pictures just get ruined or polluted for some reason. You may want to restore them. But how? In this project I just tried a hand-written linear regression. Of course there are more than one way to do it. I just explored the possibility here. Plus, I didn't use scikit-learn library to generate regression results. It turns out that it works well. <br>Yeah it can be done better. I will explore more. ",
+    "Sometimes your pictures just get ruined or polluted for some reason. You may want to restore them. But how? In this project I just tried a hand-written linear regression. Of course, there are more than one way to do it. I just explored the possibility here. Plus, I didn't use scikit-learn library to generate regression results. It turns out that it works well. <br>Yeah it can be done better. I will explore more. ",
   title5: "Bird Localization",
   content5:
     "In this project, I tried some interesting thing using CNN(Convoluted Neural Network). I used CUB(Caltech and UCSD Birds) data set to localize birds. I divided the dataset as 8:2 to train and test. Modification to a 18-layer ResNet has been made like changing the fully-connected layer to 4-dimension and use Adam algorithm to optimize the result. ",
@@ -21,7 +21,7 @@ export const information = {
     "A new vocabulary website for multiple users with different identities of teachers and students. Teachers can set tests and review plans, while students can recite vocabulary, set up study plans, review and take tests, and many other things related to vocabulary learning.",
   title7: "YT-Store",
   content7:
-    "A C2C E-Commercial platform that based on UGC(User Generated Content) to help young people like college students to browse, buy and share products from overseas."
+    "A C2C E-Commercial platform that based on UGC (User Generated Content) to help young people like college students to browse, buy and share products from overseas."
 };
 
 export const atlas1 = [

@@ -9,7 +9,7 @@ export const information = {
   content2:
     "Lei Shi, Holly M. Lawson, Zhuohao Zhang, Shiri Azenkot. Designing interactive 3D printed models with Teachers of the Visually Impaired. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (CHI 2019)",
   title3: "MEDIA AND IMAGES",
-  title4: "Designing I3Ms with TVIs: FREQUENTLY ASKED QUESTIONS",
+  title4: "Designing I3Ms with TVIs: A Quick Review",
   pdfhref: "/pdf/chi19.pdf",
   pdfcontent: "DOWNLOAD PAPER"
 };

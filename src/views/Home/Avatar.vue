@@ -1,6 +1,6 @@
 <template lang="pug">
 .avatar
-  img.pic(src="@/assets/saltfish.jpg")
+  img.pic(src="@/assets/saltfish1.jpg")
 </template>
 
 <script lang="ts">

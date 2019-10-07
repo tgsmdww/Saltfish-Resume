@@ -8,7 +8,7 @@ export const information = {
   content2:
     "Shi, Lei, Zhuohao Zhang, and Shiri Azenkot. 'A Demo of Talkit++: Interacting with 3D Printed Models Using an iOS Device.' Proceedings of the 20th International ACM SIGACCESS Conference on Computers and Accessibility. ACM, 2018.",
   title3: "MEDIA AND IMAGES",
-  title4: "A demo of Talkit++: FREQUENTLY ASKED QUESTIONS",
+  title4: "A demo of Talkit++: A Quick Review",
   pdfhref: "/pdf/assets18.pdf",
   pdfcontent: "DOWNLOAD PAPER",
   pdfhref2: "/pdf/assetsPoster.pdf",

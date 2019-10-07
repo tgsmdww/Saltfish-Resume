@@ -5,8 +5,8 @@
     .line
     avatar
   .container
-    Portfolio.home-portfolio
     Profile.home-profile
+    Portfolio.home-portfolio
     Contact.home-contact
   gc-copyright
 </template>

@@ -13,8 +13,8 @@
   .mobileicon(@click.stop="toggleNav")
   ul.nav-list
     router-link.item(tag="li" to="/" exact) Home
-    router-link.item(tag="li" to="/portfolio" exact) Portfolio
     router-link.item(tag="li" to="/profile") Profile
+    router-link.item(tag="li" to="/portfolio" exact) Portfolio
     router-link.item(tag="li" to="/contact") Contact
 
   transition(name="fade")
@@ -22,8 +22,8 @@
       v-show="toggle"
     )
       router-link.item(tag="li" to="/" exact) Home
-      router-link.item(tag="li" to="/portfolio" exact) Portfolio
       router-link.item(tag="li" to="/profile") Profile
+      router-link.item(tag="li" to="/portfolio" exact) Portfolio
       router-link.item(tag="li" to="/contact") Contact
   .mobile-shade(
     v-show="toggle"
