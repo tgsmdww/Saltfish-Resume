@@ -61,7 +61,7 @@ export default class Portfolio extends Mixins(MyMixin) {
       text-align center
 
   >.itemlist
-    margin-left 50px
+    margin-left 100px
     display flex
     flex-wrap wrap
     justify-content left

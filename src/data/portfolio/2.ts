@@ -5,7 +5,7 @@ export const information = {
   title1: "ABSTRACT",
   content1:
     "An interactive 3D printed model (I3M), model that provides an audio description when a user touches components of the model, can help people with visual impairments learn a variety of concepts. However, it is unknown how an I3M should be designed to serve as an effective teaching aid. To address this gap, we conducted two studies with Teachers of the Visually Impaired (TVIs). First, we led two design workshops with 35 TVIs, who modified sample models and added interactive elements to them. Second, we worked with three TVIs to design three I3Ms in an iterative instructional design process. At the end of this process, the TVIs used the I3Ms we designed to teach their students. We conclude that I3Ms should (1) have effective tactile features (e.g., distinctive patterns between components), (2) contain both auditory and visual content (e.g., explanatory animations), and (3) consider pedagogical methods (e.g., overview before details).",
-  title2: "FULL CITATION (Avaliable in May)",
+  title2: "FULL CITATION",
   content2:
     "Lei Shi, Holly M. Lawson, Zhuohao Zhang, Shiri Azenkot. Designing interactive 3D printed models with Teachers of the Visually Impaired. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (CHI 2019)",
   title3: "MEDIA AND IMAGES",

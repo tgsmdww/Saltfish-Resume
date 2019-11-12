@@ -1,6 +1,6 @@
 export default {
   content:
-    "Hi, I am actively looking for summer research assistant positions or internships. Feel free to contact me if you want to talk about HCI+AI. I am always happy to begin something interesting.",
+    "Hi, I am now actively looking for summer research assistant positions or internships. Feel free to drop an email message if you're interested in my background or research interests.",
   email: "zhuohao4@illinois.edu",
   phone: "+1(217)979-6769",
   address:

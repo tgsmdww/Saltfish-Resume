@@ -31,41 +31,41 @@
         :atlas="atlas3"
       )
 
-    .swiperwrap
-      wrap.discription(
-        :title="information.title4"
-        :content="information.content4"
-      )
-      swiper.swiper(
-        :atlas="atlas4"
-      )
+    //- .swiperwrap
+    //-   wrap.discription(
+    //-     :title="information.title4"
+    //-     :content="information.content4"
+    //-   )
+    //-   swiper.swiper(
+    //-     :atlas="atlas4"
+    //-   )
 
-    .swiperwrap
-      wrap.discription(
-        :title="information.title5"
-        :content="information.content5"
-      )
-      swiper.swiper(
-        :atlas="atlas5"
-      )
+    //- .swiperwrap
+    //-   wrap.discription(
+    //-     :title="information.title5"
+    //-     :content="information.content5"
+    //-   )
+    //-   swiper.swiper(
+    //-     :atlas="atlas5"
+    //-   )
 
-    .swiperwrap
-      wrap.discription(
-        :title="information.title6"
-        :content="information.content6"
-      )
-      swiper.swiper(
-        :atlas="atlas6"
-      )
+    //- .swiperwrap
+    //-   wrap.discription(
+    //-     :title="information.title6"
+    //-     :content="information.content6"
+    //-   )
+    //-   swiper.swiper(
+    //-     :atlas="atlas6"
+    //-   )
 
-    .swiperwrap
-      wrap.discription(
-        :title="information.title7"
-        :content="information.content7"
-      )
-      swiper.swiper(
-        :atlas="atlas7"
-      )
+    //- .swiperwrap
+    //-   wrap.discription(
+    //-     :title="information.title7"
+    //-     :content="information.content7"
+    //-   )
+    //-   swiper.swiper(
+    //-     :atlas="atlas7"
+    //-   )
 
   gc-copyright
 </template>
@@ -81,10 +81,10 @@ import {
   atlas1,
   atlas2,
   atlas3,
-  atlas4,
-  atlas5,
-  atlas6,
-  atlas7
+  // atlas4,
+  // atlas5,
+  // atlas6,
+  // atlas7
 } from "@/data/portfolio/5";
 
 @Component({
@@ -99,10 +99,10 @@ export default class portfolio1 extends Vue {
   atlas1: object[] = atlas1;
   atlas2: object[] = atlas2;
   atlas3: object[] = atlas3;
-  atlas4: object[] = atlas4;
-  atlas5: object[] = atlas5;
-  atlas6: object[] = atlas6;
-  atlas7: object[] = atlas7;
+  // atlas4: object[] = atlas4;
+  // atlas5: object[] = atlas5;
+  // atlas6: object[] = atlas6;
+  // atlas7: object[] = atlas7;
 }
 </script>
 

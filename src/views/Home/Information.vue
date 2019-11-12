@@ -19,7 +19,7 @@
     v-html="cv"
   )
   .contact.global-fade-in
-    a(href="mailto:zhuohaozhang@zju.edu.cn" target="_blank")
+    a(href="mailto:zhuohao4@illinois.edu" target="_blank")
       svg.icon.email(
         aria-hidden="true"
       )

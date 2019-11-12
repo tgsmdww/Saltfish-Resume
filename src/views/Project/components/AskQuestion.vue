@@ -29,10 +29,11 @@ export default class AskQuestion extends Vue {
     border-left solid 4px rgba(255,255,255,0.125)
     font-style italic
     font-weight bold
-    font-size 1.5em
+    font-size 2em
 
   >.answer
     line-height 2em
+    font-size 1.3em
 
   @media screen and (max-width : 645px)
     >.question

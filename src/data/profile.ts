@@ -1,8 +1,11 @@
 export const researchInterests = [
   {
-    title: "HCI + AI",
+    title: "My Interests = (Technical) HCI + AI (+ Accessibility)",
     content:
-      "I wish to expand my research on applying AI methods (like data-driven, vision-based, machine learning, or information retrieval) to design and evaluate intelligent user interfaces (mostly mobile or web-based applications). Currently I am working on extracting information encoded in social network Emoji sequences and empirically measure properties from this information channel"
+      "I am interested in applying AI (including data-driven, vision-based, and machine learning methods) to:"+
+      "<br> 1. Build and evaluate intelligent and interactive systems, novel interaction techniques, and design fabrication"+
+      "<br> 2. Address and understand real world problems through empirical study + developing"+
+      "<br> 3. Empower disabled people and socially vulnerable groups with abilities of perception and action</br>"
   }
   // {
   //   title: "HCI + Visualization",
@@ -40,15 +43,15 @@ export const publications = [
     authors: "Zhaoyuan Su, <strong>Zhuohao Zhang</strong>, Fan Lin, Zhou Yu",
     source:
       "Technical Report <a href='/pdf/chi19sdc.pdf' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[PDF]</a> <a href='/pdf/chi19sdcposter.pdf' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[Poster]</a> <a href='https://drive.google.com/open?id=1AuIc-HvPzcWullqSd4iRoHB8b-12Rr59' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[Video]</a>"
+  },
+  {
+    title:
+      "Relation Extraction for Chinese Medicine Using ResCNN and Attention",
+    authors:
+      "Tianxiang Gao, Xi Yang, <strong>Zhuohao Zhang</strong>, Linlin Li, Zhou Zhao",
+    source:
+      "Technical Report, Hangzhou, China. Deployed as part of the knowledge base system at Alibaba Inc."
   }
-  // {
-  //   title:
-  //     "Relation Extraction for Chinese Medicine Using ResCNN and Attention",
-  //   authors:
-  //     "Tianxiang Gao, Xi Yang, <strong>Zhuohao Zhang</strong>, Linlin Li, Zhou Zhao",
-  //   source:
-  //     "Technical Report, Hangzhou, China. Deployed as part of the knowledge base system at Alibaba Inc."
-  // }
 ];
 
 export const talks = [
@@ -71,59 +74,38 @@ export const talks = [
 export const experiences = [
   {
     time: "2019.8 - Now",
-    title: "Research Internship at UIUC",
+    title: "MSCS Student at UIUC",
     src: require("@/assets/Experience/uiuc.jpg"),
     content:
-      "Work at Data Driven Design Group with Prof. Ranjitha Kumar on Opico, a social media research"
+      "Began my journey at HCI@UIUC"
   },
   {
     time: "2018.10 - 2018.12",
     title: "Cornell Tech Internship",
     src: require("@/assets/Experience/Cornell.jpg"),
     content:
-      "Research Assistant at Cornell Tech with Prof. Shiri Azenkot on Talkit, an accessibility research"
+      "Research Assistant at Cornell Tech. Advisor: Prof. Shiri Azenkot. Topic: Designing interactive 3D printed models for visually imparied people"
   },
-  // {
-  //   time: "2018.07 - 2018.10",
-  //   title: "UC Davis Summer Internship",
-  //   src: require("@/assets/Experience/UCD.jpg"),
-  //   content:
-  //     "Research Assistant at UC Davis undering Prof. Kwan-Liu Ma's direction. Developed some intelligent interactive system between the large display wall and smartphones"
-  // },
   {
-    time: "2016.09 - 2018.06",
-    title: "Research Assistant in Arc Lab, ZJU",
-    src: require("@/assets/Experience/arc.png"),
+    time: "2018.07 - 2018.10",
+    title: "UC Davis Summer Internship",
+    src: require("@/assets/Experience/UCD.jpg"),
     content:
-      "Joined Prof. Qingsong Shi's Architecture lab to complete computer system integration project"
+      "Research Assistant at UC Davis. Advisor: Prof. Kwan-Liu Ma. Topic: Mouse-and-keyboard-free interaction system for large display walls using smartphone + AR to support multi-level information sharing"
   },
   {
     time: "2017.04 - 2018.04",
     title: "Research Assistant in IDG, ZJU",
     src: require("@/assets/Experience/vis.png"),
     content:
-      "Joined Prof. Yingcai Wu's Interactive Data Group on projects of AR/VR based visual analytics"
-  },
-  {
-    time: "2017.07 - 2017.08",
-    title: "Teaching Assistant to Prof. Yale Patt",
-    src: require("@/assets/Experience/uta.png"),
-    content:
-      "Responsible of TA job for Professor Yale Patt from UT-Austin during his summer course."
+      "Research Assistant at Zhejiang University. Advisor: Prof. Yingcai Wu. Topic: AR/VR-based urban visual analytics system"
   },
   {
     time: "2016.09 - 2019.6",
     title: "Honors College in ZJU",
-    src: require("@/assets/Experience/ckc.png"),
-    content:
-      "Transferred to the Chu Kochen Honors College in ZJU, Computer Science Class"
-  },
-  {
-    time: "2015.09 - 2019.6",
-    title: "Zhejiang University",
     src: require("@/assets/Experience/zju.png"),
     content:
-      "Received Bachelor's Degree at Zhejiang University, major in Computer Science and Technology, with an overall GPA of 3.88/4.00 and major GPA of 3.93/4.00"
+      "Received Bachelor's Degree (with Honors) at Zhejiang University, major in Computer Science and Technology, with an overall GPA of 3.88/4.00 and major GPA of 3.93/4.00."
   }
 ];
 
@@ -134,14 +116,10 @@ export const aboutme = [
   },
   {
     content:
-      "Thai food lover, as well as a good Chinese food cook inherited from family tradition"
+      "Good at Chinese food cooking inherited from family traditional skills"
   },
   {
     content:
       "Travel lover, but terrible at photography and working on improving it :)"
-  },
-  {
-    content:
-      "Sci-Fi addicted, DC Fan, american drama lover, big Harry Potter fan, still dreaming of going to Hogwarts"
   }
 ];

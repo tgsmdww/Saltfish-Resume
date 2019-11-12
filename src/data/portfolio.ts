@@ -41,13 +41,13 @@ export default [
     picsrc1: require("@/assets/portfoliopic/5.png"),
     picsrc2: require("@/assets/portfoliopic/5_2.png")
   },
-  {
-    router: "/portfolio/graphicsdesign",
-    name: "graphicsdesign",
-    type: "Others",
-    picsrc1: require("@/assets/portfoliopic/6.png"),
-    picsrc2: require("@/assets/portfoliopic/6_2.png")
-  },
+  // {
+  //   router: "/portfolio/graphicsdesign",
+  //   name: "graphicsdesign",
+  //   type: "Others",
+  //   picsrc1: require("@/assets/portfoliopic/6.png"),
+  //   picsrc2: require("@/assets/portfoliopic/6_2.png")
+  // },
   // {
   //   router: "/portfolio/aaai19",
   //   name: "aaai19",
