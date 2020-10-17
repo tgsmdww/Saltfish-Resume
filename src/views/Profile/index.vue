@@ -15,7 +15,7 @@
     )
 
   .theme
-    h2.title - Publications (Including Technical Reports) -
+    h2.title - Publications -
     profile-wrap(
       v-for="(item, i) in publications"
       :key="i"

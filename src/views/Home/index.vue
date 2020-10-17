@@ -6,7 +6,7 @@
     avatar
   .container
     Profile.home-profile
-    Portfolio.home-portfolio
+    //- Portfolio.home-portfolio
     Contact.home-contact
   gc-copyright
 </template>
@@ -16,7 +16,7 @@ import { Component, Vue, Mixins } from "vue-property-decorator";
 import Information from "./Information.vue";
 import Avatar from "./Avatar.vue";
 import Profile from "@/views/Profile/index.vue";
-import Portfolio from "@/views/Portfolio/index.vue";
+// import Portfolio from "@/views/Portfolio/index.vue";
 import Contact from "@/views/Contact/index.vue";
 import MyMixin from "@/mixin";
 
@@ -24,7 +24,7 @@ import MyMixin from "@/mixin";
   components: {
     Information,
     Avatar,
-    Portfolio,
+    // Portfolio,
     Profile,
     Contact
   }
@@ -69,8 +69,8 @@ export default class Home extends Mixins(MyMixin) {
   >.container
     margin 0 10%
 
-    >.home-portfolio
-      margin-top 75px
+    // >.home-portfolio
+    //   margin-top 75px
     >.home-profile
     >.home-contact
       margin-top 100px

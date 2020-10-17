@@ -5,15 +5,15 @@
   h4.content(
     v-html="content"
   )
-  .way
-    h4.title Email
-    p.content {{email}}
-  .way
-    h4.title Phone
-    p.content {{phone}}
-  .way
-    h4.title Address
-    p.content {{address}}
+  //- .way
+  //-   h4.title Email
+  //-   p.content {{email}}
+  //- .way
+  //-   h4.title Phone
+  //-   p.content {{phone}}
+  //- .way
+  //-   h4.title Address
+  //-   p.content {{address}}
   .link.global-fade-in
     a(href="https://www.facebook.com/zhuohao.zhang.520" target="_blank")
       svg.icon.facebook(
@@ -42,8 +42,8 @@ import MyMixin from "@/mixin";
 export default class Contact extends Mixins(MyMixin) {
   content: string = contact.content;
   email: string = contact.email;
-  phone: string = contact.phone;
-  address: string = contact.address;
+  // phone: string = contact.phone;
+  // address: string = contact.address;
 
   mounted() {
     this.inView();

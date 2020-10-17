@@ -5,13 +5,13 @@
   p.content(
     v-html="content"
   )
-  a.blog(
-    href="http://blog.zhuohaozhang.com/"
-    target="_blank"
-    v-html="blog"
-  )
+  //- a.blog(
+  //-   href="http://blog.zhuohaozhang.com/"
+  //-   target="_blank"
+  //-   v-html="blog"
+  //- )
 
-  .separation ||
+  //- .separation ||
 
   a.cv(
     href="/pdf/ZhuohaoZhang-CV.pdf"
@@ -34,6 +34,16 @@
         aria-hidden="true"
       )
         use(xlink:href="#icon-github")
+    //- a(href="http://blog.zhuohaozhang.com" target="_blank")
+    //-   svg.icon.blog(
+    //-     aria-hidden="true"
+    //-   )
+    //-     use(xlink:href="#icon-link")
+    a(href="https://twitter.com/ZhuohaoZhang" target="_blank")
+      svg.icon.twitter(
+        aria-hidden="true"
+      )
+        use(xlink:href="#icon-twitter")
     a(href="https://www.linkedin.com/in/zhuohao-zhang-08656510a/" target="_blank")
       svg.icon.linkedin(
         aria-hidden="true"
@@ -52,7 +62,7 @@ export default class MainIntro extends Vue {
   research: string = selfintro.research;
   content: string = selfintro.content;
   cv: string = selfintro.cv;
-  blog: string = selfintro.blog;
+  twitter: string = selfintro.twitter;
   email: string = selfintro.email;
   github: string = selfintro.github;
   linkedin: string = selfintro.linkedin;
@@ -103,19 +113,6 @@ export default class MainIntro extends Vue {
     @media screen and (max-width : 645px)
       margin-top 25px
 
-  >.blog
-    margin-right 0.5em
-    font-size 20px
-    font-weight bold
-    text-decoration none
-    color #c5e5ff
-    cursor pointer
-    @media screen and (max-width : 900px)
-      display inline-block
-      margin 0 auto
-      margin-right 0.5em
-      text-align center
-
   >.separation
     display inline
     font-size 20px
@@ -152,6 +149,12 @@ export default class MainIntro extends Vue {
       color #c5e5ff
 
     .github
+      width 32px
+      height 32px
+      margin-right 10px
+      color #c5e5ff
+
+    .twitter
       width 32px
       height 32px
       margin-right 10px

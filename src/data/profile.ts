@@ -1,11 +1,8 @@
 export const researchInterests = [
   {
-    title: "My Interests = (Technical) HCI + AI (+ Accessibility)",
+    title: "My Interests = (Technical) HCI ∩ AI ∩ Accessibility",
     content:
-      "I am interested in applying AI (including data-driven, vision-based, and machine learning methods) to:"+
-      "<br> 1. Build and evaluate intelligent and interactive systems, novel interaction techniques, and design fabrication"+
-      "<br> 2. Address and understand real world problems through empirical study + developing"+
-      "<br> 3. Empower disabled people and socially vulnerable groups with abilities of perception and action</br>"
+      "I am interested in integrating human intellect to solve real-world accessibility problems when AI is not a perfection solution. I wish to combine human's unique advantage in perception and machine's advantage in automation. I usually create and evaluate human-AI hybrid systems to empower people with visual impairments, socially vulnerable groups, or people with no technical background but with needs to engage in novel technologies."
   }
   // {
   //   title: "HCI + Visualization",
@@ -17,10 +14,31 @@ export const researchInterests = [
 export const publications = [
   {
     title:
+      "WebAlly: A Friendsourcing Approach to Solve CAPTCHAs for People with Visual Impairments",
+    authors: "<strong>Zhuohao Zhang</strong>, Zhilin Zhang, Haolin Yuan, Nata Barbosa, Sauvik Das, Yang Wang",
+    source: 
+      "Under review of <span style='color: #f6e408'>CSCW 2021</span> <a href='/pdf/cscw2021.pdf' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[PDF]</a>"
+  },
+  {
+    title:
+      "Authoring Interactive Data-Driven Reports for Business Data Analysts",
+    authors: "<strong>Zhuohao Zhang</strong>, Sana Malik, Leo Zhicheng Liu, Tak Yeon Lee, Ryan Rossi, Eunyee Koh",
+    source: 
+      "Under review of <span style='color: #f6e408'>CHI 2021</span> <a href='/pdf/chi2021.pdf' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[PDF]</a>"
+  },
+  {
+    title:
+      "Do Privacy and Security Matter to Everyone? Quantifying and Clustering User-Centric Considerations About Smart Home Device Adoption",
+    authors: "Nata Barbosa, <strong>Zhuohao Zhang</strong>, Yang Wang",
+    source: 
+      "<span style='color: #f6e408'>SOUPS 2020</span> <a href='/pdf/soups2020.pdf' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[PDF]</a>"
+  },
+  {
+    title:
       "GPK: An Efficient Special Character Input Method for Keyboards Using Glide",
     authors: "<strong>Zhuohao Zhang</strong>, Xiyuan He*",
     source:
-      "<span style='color: #f6e408'>CHI 2019 EA</span> <a href='/pdf/chi19src.pdf' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[PDF]</a> <a href='/pdf/chi19srcposter.pdf' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[Poster]</a>"
+      "<span style='color: #f6e408'>CHI 2019</span> EA <a href='/pdf/chi19src.pdf' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[PDF]</a> <a href='/pdf/chi19srcposter.pdf' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[Poster]</a>"
   },
   {
     title:
@@ -36,21 +54,6 @@ export const publications = [
     authors: "Lei Shi, <strong>Zhuohao Zhang</strong>, Shiri Azenkot",
     source:
       "<span style='color: #f6e408'>ASSETS 2018</span> Demo Paper <a href='/pdf/assets18.pdf' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[PDF]</a> <a href='/pdf/assetsPoster.pdf' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[Poster]</a> <a href='https://github.com/interactiveprintedmodels/Talkit' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[Link]</a>"
-  },
-  {
-    title:
-      "WeCare: An Intelligent Tool Enhancing Storytelling Experience to Support Retired Elder’s Mental Wellness",
-    authors: "Zhaoyuan Su, <strong>Zhuohao Zhang</strong>, Fan Lin, Zhou Yu",
-    source:
-      "Technical Report <a href='/pdf/chi19sdc.pdf' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[PDF]</a> <a href='/pdf/chi19sdcposter.pdf' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[Poster]</a> <a href='https://drive.google.com/open?id=1AuIc-HvPzcWullqSd4iRoHB8b-12Rr59' target='_blank' style='color: inherit;text-decoration: none;margin-left: 10px'>[Video]</a>"
-  },
-  {
-    title:
-      "Relation Extraction for Chinese Medicine Using ResCNN and Attention",
-    authors:
-      "Tianxiang Gao, Xi Yang, <strong>Zhuohao Zhang</strong>, Linlin Li, Zhou Zhao",
-    source:
-      "Technical Report, Hangzhou, China. Deployed as part of the knowledge base system at Alibaba Inc."
   }
 ];
 
@@ -65,7 +68,7 @@ export const talks = [
   {
     time: "Oct 11th - 12th, 2018, Baltimore, Maryland ✈️",
     content1:
-      "<span style='color: #f6e408'>Tactile Graphics in Education and Careers Symposium</span>, with Ph.D. Candidate Lei Shi",
+      "<span style='color: #f6e408'>Tactile Graphics in Education and Careers Symposium</span>, with Dr. Lei Shi",
     content2:
       "Title: Sensables: 3D Printed Models for Visually Impaired Students"
   }
@@ -73,11 +76,25 @@ export const talks = [
 
 export const experiences = [
   {
+    time: "2020.5 - 2020.8",
+    title: "Research Intern at Adobe Research",
+    src: require("@/assets/Experience/adobe.png"),
+    content:
+    "VaaS (Visualization as a Service) Group. Topic: Authoring interactive data stories for business analysts"
+  },
+  {
+    time: "2019.11 - Now",
+    title: "Graduate Research Assistant",
+    src: require("@/assets/Experience/salt.png"),
+    content:
+      "SALT (Social Computing Systems) lab, with Prof. Yang Wang. Topic: A friendsourcing approach to solve inaccessible online tasks for people with visual impairments"
+  },
+  {
     time: "2019.8 - Now",
     title: "MSCS Student at UIUC",
     src: require("@/assets/Experience/uiuc.jpg"),
     content:
-      "Began my journey at HCI@UIUC"
+      "MSCS@UIUC, GPA 4.0/4.0, Courses: HCI in ML, Database Systems, Applied Machine Learning, Machine Learning in NLP, Antisocial Computing, Machine Learning"
   },
   {
     time: "2018.10 - 2018.12",
